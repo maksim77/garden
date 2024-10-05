@@ -45,7 +45,7 @@
     <title>index</title>
     <link>https://mak-sim.ru/</link>
     <guid>https://mak-sim.ru/</guid>
-    <description>Index YandexGPT в Obsidian TextGenerator .</description>
+    <description>Добро пожаловать в ещё один цифровой садик. По сути это небольшой кусочек моего Obsidian доступный всем. Большинство заметок здесь я специально не готовил к публикации и они видны “как есть”, что означает местами специфическое форматирование или хвосты каких-то плагинов которые не видны в интерфейсе Quartz.</description>
     <pubDate>Fri, 04 Oct 2024 13:41:00 GMT</pubDate>
   </item><item>
     <title>Получение API ключа в YC</title>
@@ -60,11 +60,11 @@
     <description>Получение IAM_TOKEN в YC Войдите- в ваш аккаунт на Яндексе. Получите OAuth-токен в сервисе Яндекс.OAuth. Для этого перейдите по ссылке, нажмите Разрешить и скопируйте полученный OAuth-токен.</description>
     <pubDate>Fri, 04 Oct 2024 12:48:29 GMT</pubDate>
   </item><item>
-    <title>Компиляция proto файла для Golang</title>
-    <link>https://mak-sim.ru/notes/Development/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B8%D0%BB%D1%8F%D1%86%D0%B8%D1%8F-proto-%D1%84%D0%B0%D0%B9%D0%BB%D0%B0-%D0%B4%D0%BB%D1%8F-Golang</link>
-    <guid>https://mak-sim.ru/notes/Development/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B8%D0%BB%D1%8F%D1%86%D0%B8%D1%8F-proto-%D1%84%D0%B0%D0%B9%D0%BB%D0%B0-%D0%B4%D0%BB%D1%8F-Golang</guid>
-    <description>Компиляция proto файла для Golang syntax = &quot;proto3&quot;; package ecommerce; service ProductInfo { rpc addProduct(Product) returns (ProductID); rpc getProduct(ProductID) ...</description>
-    <pubDate>Wed, 14 Feb 2024 13:36:24 GMT</pubDate>
+    <title>Инициализация OTEL в go</title>
+    <link>https://mak-sim.ru/notes/Development/%D0%98%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-OTEL-%D0%B2-go</link>
+    <guid>https://mak-sim.ru/notes/Development/%D0%98%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-OTEL-%D0%B2-go</guid>
+    <description>Инициализация OTEL в go Как можно раньше в коде следует выполнить блок инициализации телеметрии. Базовая инициализация package main import ( &quot;context&quot; &quot;log&quot; &quot;time&quot; &quot;go.opentelemetry.io/otel&quot; &quot;go.opentelemetry.io/otel/exporters/otlp/otlptrace&quot; &quot;go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc&quot; &quot;go.opentelemetry.io/otel/propagation&quot; &quot;go.opentelemetry.io/otel/sdk/resource&quot; sdktrace &quot;go.opentelemetry.io/otel/sdk/trace&quot; semconv &quot;go.opentelemetry.io/otel/semconv/v1.4.0&quot; &quot;google.golang.org/grpc&quot; ) func initProvider() func() { ctx := context.Background() res, err := resource.New(ctx, resource.WithFromEnv(), resource.WithProcess(), resource.WithTelemetrySDK(), resource.WithHost(), resource.WithAttributes( semconv.ServiceNameKey.String(&quot;demo-client&quot;), ), ) if err != nil { log.Fatal(err) } traceClient := otlptracegrpc.NewClient( otlptracegrpc.WithInsecure(), otlptracegrpc.WithEndpoint(&quot;0.0.0.0:4317&quot;), otlptracegrpc.WithDialOption(grpc.WithBlock())) sctx, cancel := context.WithTimeout(ctx, time.Second) defer cancel() traceExp, err := otlptrace.New(sctx, traceClient) if err != nil { log.Fatal(err) } bsp := sdktrace.NewBatchSpanProcessor(traceExp) tracerProvider := sdktrace.NewTracerProvider( sdktrace.WithSampler(sdktrace.AlwaysSample()), sdktrace.WithResource(res), sdktrace.WithSpanProcessor(bsp), ) // set global propagator to tracecontext (the default is no-op).</description>
+    <pubDate>Tue, 21 May 2024 09:18:17 GMT</pubDate>
   </item>
     </channel>
   </rss>

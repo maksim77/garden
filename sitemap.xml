@@ -2,14 +2,26 @@
     <loc>https://mak-sim.ru/</loc>
     <lastmod>2024-10-04T13:41:00.583Z</lastmod>
   </url><url>
+    <loc>https://mak-sim.ru/notes/Development/00_GRPC</loc>
+    <lastmod>2024-02-14T13:36:22.195Z</lastmod>
+  </url><url>
     <loc>https://mak-sim.ru/notes/Development/Draft-actions</loc>
     <lastmod>2024-10-04T19:22:04.653Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/Development/GRPC-Reflection</loc>
+    <lastmod>2024-02-14T13:36:18.383Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/Git-user-checks</loc>
     <lastmod>2024-10-04T15:16:52.141Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/YandexGPT-%D0%B2-Obsidian-TextGenerator</loc>
     <lastmod>2024-10-05T14:37:46.213Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/Development/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B8%D0%BB%D1%8F%D1%86%D0%B8%D1%8F-proto-%D1%84%D0%B0%D0%B9%D0%BB%D0%B0-%D0%B4%D0%BB%D1%8F-Golang</loc>
+    <lastmod>2024-02-14T13:36:24.595Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/Development/%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA-GRPC-server'%D1%83</loc>
+    <lastmod>2024-02-14T13:36:18.463Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-API-%D0%BA%D0%BB%D1%8E%D1%87%D0%B0-%D0%B2-YC</loc>
     <lastmod>2024-10-04T12:50:58.589Z</lastmod>
@@ -25,4 +37,7 @@
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B0-Service-Account-%D0%B2-YC</loc>
     <lastmod>2024-10-05T07:27:32.682Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/Development/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-GRPC-%D0%B2-Golang</loc>
+    <lastmod>2024-02-14T13:36:18.707Z</lastmod>
   </url></urlset>

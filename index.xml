@@ -6,11 +6,23 @@
       <description>Последние 10 заметок on MakSim garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Получение ID облака в Yandex Cloud</title>
+    <link>https://mak-sim.ru/%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-ID-%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%B0-%D0%B2-Yandex-Cloud</link>
+    <guid>https://mak-sim.ru/%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-ID-%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%B0-%D0%B2-Yandex-Cloud</guid>
+    <description>Получение ID облака в Yandex Cloud Для того чтобы узнать id облаков доступных в YC необходимо выполнить следующий запрос (необходим I AM токен): http GET resource-manager.api.cloud.yandex.net/resource-manager/v1/clouds ...</description>
+    <pubDate>Sat, 05 Oct 2024 14:51:11 GMT</pubDate>
+  </item><item>
+    <title>Получение ID каталога в Yandex Cloud</title>
+    <link>https://mak-sim.ru/%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-ID-%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3%D0%B0-%D0%B2-Yandex-Cloud</link>
+    <guid>https://mak-sim.ru/%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-ID-%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3%D0%B0-%D0%B2-Yandex-Cloud</guid>
+    <description>Получение ID каталога в Yandex Cloud Для использования многих методов API YC требуется знать идентификатор каталога в облаке. Получение id облака Идентификатор самого облака в свою очередь можно получить вот так: Transclude of Получение-ID-облака-в-Yandex-Cloud Получение id каталога(в) http GET resource-manager.api.cloud.yandex.net/resource-manager/v1/folders Authorization:&quot;Bearer $IAM_TOKEN&quot; cloud_id=b1gp230h62h8oavhctri Ответ: { &quot;folders&quot;: [ { &quot;cloudId&quot;: &quot;b1gp230h62h8oavhctri&quot;, &quot;createdAt&quot;: &quot;2020-09-19T07:20:09Z&quot;, &quot;id&quot;: &quot;b1gjpq05r3ppsou34c7d&quot;, &quot;name&quot;: &quot;default&quot;, &quot;status&quot;: &quot;ACTIVE&quot; } ] }.</description>
+    <pubDate>Sat, 05 Oct 2024 14:51:01 GMT</pubDate>
+  </item><item>
     <title>YandexGPT в Obsidian TextGenerator</title>
     <link>https://mak-sim.ru/notes/Development/YandexGPT-%D0%B2-Obsidian-TextGenerator</link>
     <guid>https://mak-sim.ru/notes/Development/YandexGPT-%D0%B2-Obsidian-TextGenerator</guid>
     <description>YandexGPT в Obsidian TextGenerator Для того чтобы работать с API YandexGPT необходимо быть зарегистрированным в Yandex Cloud и иметь действующий платежный аккаунт ...</description>
-    <pubDate>Sat, 05 Oct 2024 07:37:44 GMT</pubDate>
+    <pubDate>Sat, 05 Oct 2024 14:37:46 GMT</pubDate>
   </item><item>
     <title>Получение списка Service Account в YC</title>
     <link>https://mak-sim.ru/notes/Development/%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B0-Service-Account-%D0%B2-YC</link>

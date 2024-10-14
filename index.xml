@@ -10,7 +10,31 @@
     <link>https://mak-sim.ru/</link>
     <guid>https://mak-sim.ru/</guid>
     <description>Добро пожаловать в ещё один цифровой садик. По сути это небольшой кусочек моего Obsidian доступный всем. Большинство заметок здесь я специально не готовил к публикации и они видны “как есть”, что означает местами специфическое форматирование или хвосты каких-то плагинов которые не видны в интерфейсе Quartz.</description>
-    <pubDate>Tue, 08 Oct 2024 18:22:42 GMT</pubDate>
+    <pubDate>Mon, 14 Oct 2024 14:10:53 GMT</pubDate>
+  </item><item>
+    <title>Инициализация OTEL в go</title>
+    <link>https://mak-sim.ru/notes/Development/%D0%98%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-OTEL-%D0%B2-go</link>
+    <guid>https://mak-sim.ru/notes/Development/%D0%98%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-OTEL-%D0%B2-go</guid>
+    <description>Инициализация OTEL в go Как можно раньше в коде следует выполнить блок инициализации телеметрии. Базовая инициализация package main import ( &quot;context&quot; &quot;fmt&quot; &quot;log&quot; &quot;time&quot; &quot;go.opentelemetry.io/otel&quot; &quot;go.opentelemetry.io/otel/exporters/otlp/otlptrace&quot; &quot;go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc&quot; &quot;go.opentelemetry.io/otel/sdk/resource&quot; sdktrace &quot;go.opentelemetry.io/otel/sdk/trace&quot; semconv &quot;go.opentelemetry.io/otel/semconv/v1.4.0&quot; ) const ( TRACER_NAME = &quot;demo_service&quot; ) func InstallExportPipeline() (func(context.Context) error, error) { traceClient := otlptracegrpc.NewClient( otlptracegrpc.WithInsecure(), otlptracegrpc.WithEndpoint(&quot;0.0.0.0:4317&quot;), ) sctx, cancel := context.WithTimeout(context.Background(), time.Second*5) defer cancel() traceExp, err := otlptrace.New(sctx, traceClient) if err != nil { log.Fatal(err) } if err != nil { return nil, fmt.Errorf(&quot;creating stdout exporter: %w&quot;, err) } res, err := resource.New(context.Background(), resource.WithFromEnv(), resource.WithProcess(), resource.WithTelemetrySDK(), resource.WithHost(), resource.WithAttributes( semconv.ServiceNameKey.String(TRACER_NAME), ), ) if err != nil { log.Fatal(err) } tracerProvider := sdktrace.NewTracerProvider( sdktrace.WithBatcher(traceExp), sdktrace.WithResource(res), ) otel.SetTracerProvider(tracerProvider) return tracerProvider.Shutdown, nil } Использование в основном коде const ( TRACER_NAME = &quot;demo_service&quot; ) var tracer = otel.Tracer(TRACER_NAME) func main() { ctx := context.Background() shutdown, err := InstallExportPipeline() if err != nil { log.Fatal(err) } Ну а далее от этого глобального tracer’а уже можно создавать спаны и жонглировать ими через контекст: newCtx, span := tracer.Start(r.Context(), &quot;/&quot;) defer span.End().</description>
+    <pubDate>Mon, 14 Oct 2024 14:09:43 GMT</pubDate>
+  </item><item>
+    <title>Работа с teleport</title>
+    <link>https://mak-sim.ru/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-teleport</link>
+    <guid>https://mak-sim.ru/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-teleport</guid>
+    <description>Работа с teleport &gt; Платформа доступа Teleport — это набор программного обеспечения и управляемых услуг, который предоставляет доступ к инфраструктуре по запросу с минимальными ...</description>
+    <pubDate>Mon, 14 Oct 2024 11:54:39 GMT</pubDate>
+  </item><item>
+    <title>Teleport CLI</title>
+    <link>https://mak-sim.ru/Teleport-CLI</link>
+    <guid>https://mak-sim.ru/Teleport-CLI</guid>
+    <description>Teleport CLI Телепорт можно установить различными способами в том числе и пакетами для OS, но так как мне требуется только авторизация для использования в коде и работа с командно ...</description>
+    <pubDate>Mon, 14 Oct 2024 11:54:09 GMT</pubDate>
+  </item><item>
+    <title>OTEL Baggage. Golang</title>
+    <link>https://mak-sim.ru/notes/Development/OTEL-Baggage.-Golang</link>
+    <guid>https://mak-sim.ru/notes/Development/OTEL-Baggage.-Golang</guid>
+    <description>OTEL Baggage. Golang b, _ := baggage.NewMember(&quot;key&quot;, &quot;value&quot;) bag, _ := baggage.New(b) ctx = baggage.ContextWithBaggage(ctx, bag) Исходный контекст в этом примере мог быть создан например при старте нового span’а.</description>
+    <pubDate>Tue, 08 Oct 2024 19:16:33 GMT</pubDate>
   </item><item>
     <title>Thrift</title>
     <link>https://mak-sim.ru/notes/Development/Thrift</link>
@@ -41,30 +65,6 @@
     <guid>https://mak-sim.ru/notes/Development/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%84%D0%BE%D0%BD%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE</guid>
     <description>Добавление фона для вертикального видео Вытаскиваем видео на timeline С зажатым option перетаскиванием дублируем его на ещё одну дорожку. Для одной из двух дорожек (на вкладке Edit или Cut) настраиваем масштаб.</description>
     <pubDate>Tue, 08 Oct 2024 08:58:18 GMT</pubDate>
-  </item><item>
-    <title>Картинка в картинке в круге Open FX</title>
-    <link>https://mak-sim.ru/notes/Development/%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0-%D0%B2-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B5-%D0%B2-%D0%BA%D1%80%D1%83%D0%B3%D0%B5-Open-FX</link>
-    <guid>https://mak-sim.ru/notes/Development/%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0-%D0%B2-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B5-%D0%B2-%D0%BA%D1%80%D1%83%D0%B3%D0%B5-Open-FX</guid>
-    <description>Картинка в картинке в круге Open FX На вкладке Effects находим Open FX эффект “Transform” и применяем его (перетаскивая на таймлайн) к дорожке которую хотим сделать маленькой ...</description>
-    <pubDate>Tue, 08 Oct 2024 08:57:58 GMT</pubDate>
-  </item><item>
-    <title>Картинка в картинке. Трансформация</title>
-    <link>https://mak-sim.ru/notes/Development/%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0-%D0%B2-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B5.-%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F</link>
-    <guid>https://mak-sim.ru/notes/Development/%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0-%D0%B2-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B5.-%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F</guid>
-    <description>Картинка в картинке. Трансформация В окне Edit открываем inspector В секции Cropping подрезаем видео убирая лишнее (оставляем голову) В секции Transform изменяем Масштаб чтобы картинка стала маленькой Положение по осям X и Y для размещения в нужной части экрана .</description>
-    <pubDate>Tue, 08 Oct 2024 08:57:48 GMT</pubDate>
-  </item><item>
-    <title>Картинка в картинке</title>
-    <link>https://mak-sim.ru/notes/Development/%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0-%D0%B2-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B5</link>
-    <guid>https://mak-sim.ru/notes/Development/%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0-%D0%B2-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B5</guid>
-    <description>Картинка в картинке Я нашел два способа разместить картинку в картинке. Это удобно например для небольшой говорящей головы в рамках скринкаста. Картинка в картинке.</description>
-    <pubDate>Tue, 08 Oct 2024 08:57:38 GMT</pubDate>
-  </item><item>
-    <title>Синхронизация двух камер</title>
-    <link>https://mak-sim.ru/notes/Development/%D0%A1%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%B2%D1%83%D1%85-%D0%BA%D0%B0%D0%BC%D0%B5%D1%80</link>
-    <guid>https://mak-sim.ru/notes/Development/%D0%A1%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%B2%D1%83%D1%85-%D0%BA%D0%B0%D0%BC%D0%B5%D1%80</guid>
-    <description>Синхронизация двух камер Похоже что существует два подхода. Один строится на простом выравнивании клипов друг относительно друга, а другой на создании специальной сущности для работы с множеством камер.</description>
-    <pubDate>Tue, 08 Oct 2024 08:57:18 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -19,14 +19,14 @@
     <pubDate>Mon, 14 Oct 2024 14:09:43 GMT</pubDate>
   </item><item>
     <title>Работа с teleport</title>
-    <link>https://mak-sim.ru/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-teleport</link>
-    <guid>https://mak-sim.ru/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-teleport</guid>
+    <link>https://mak-sim.ru/notes/Development/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-teleport</link>
+    <guid>https://mak-sim.ru/notes/Development/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-teleport</guid>
     <description>Работа с teleport &gt; Платформа доступа Teleport — это набор программного обеспечения и управляемых услуг, который предоставляет доступ к инфраструктуре по запросу с минимальными ...</description>
     <pubDate>Mon, 14 Oct 2024 11:54:39 GMT</pubDate>
   </item><item>
     <title>Teleport CLI</title>
-    <link>https://mak-sim.ru/Teleport-CLI</link>
-    <guid>https://mak-sim.ru/Teleport-CLI</guid>
+    <link>https://mak-sim.ru/notes/Development/Teleport-CLI</link>
+    <guid>https://mak-sim.ru/notes/Development/Teleport-CLI</guid>
     <description>Teleport CLI Телепорт можно установить различными способами в том числе и пакетами для OS, но так как мне требуется только авторизация для использования в коде и работа с командно ...</description>
     <pubDate>Mon, 14 Oct 2024 11:54:09 GMT</pubDate>
   </item><item>

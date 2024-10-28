@@ -6,17 +6,29 @@
       <description>Последние 10 заметок on 🌱🖧 MakSim garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Запуск LogSeq в Ubuntu</title>
-    <link>https://mak-sim.ru/notes/Development/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA-LogSeq-%D0%B2-Ubuntu</link>
-    <guid>https://mak-sim.ru/notes/Development/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA-LogSeq-%D0%B2-Ubuntu</guid>
-    <description>Запуск LogSeq в Ubuntu При запуске некоторых Appimage в Ubunutu (например LogSeq) может встретиться примерно вот такая ошибка: ❯ ./Logseq-linux-x64-0.10.9_dcf8b41b9db5c9fe9f84938688e17f23.AppImage ...</description>
-    <pubDate>Mon, 28 Oct 2024 06:47:10 GMT</pubDate>
+    <title>Teleport CLI</title>
+    <link>https://mak-sim.ru/notes/Development/Teleport-CLI</link>
+    <guid>https://mak-sim.ru/notes/Development/Teleport-CLI</guid>
+    <description>Teleport CLI Телепорт можно установить различными способами в том числе и пакетами для OS, но так как мне требуется только авторизация для использования в коде и работа с командно ...</description>
+    <pubDate>Mon, 28 Oct 2024 15:22:13 GMT</pubDate>
   </item><item>
     <title>index</title>
     <link>https://mak-sim.ru/</link>
     <guid>https://mak-sim.ru/</guid>
     <description>Добро пожаловать в ещё один цифровой садик. По сути это небольшой кусочек моего Obsidian доступный всем. Большинство заметок здесь я специально не готовил к публикации и они видны “как есть”, что означает местами специфическое форматирование или хвосты каких-то плагинов которые не видны в интерфейсе Quartz.</description>
-    <pubDate>Mon, 28 Oct 2024 06:43:30 GMT</pubDate>
+    <pubDate>Mon, 28 Oct 2024 15:11:03 GMT</pubDate>
+  </item><item>
+    <title>Работа с teleport</title>
+    <link>https://mak-sim.ru/notes/Development/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-teleport</link>
+    <guid>https://mak-sim.ru/notes/Development/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-teleport</guid>
+    <description>Работа с teleport &gt; Платформа доступа Teleport — это набор программного обеспечения и управляемых услуг, который предоставляет доступ к инфраструктуре по запросу с минимальными ...</description>
+    <pubDate>Mon, 28 Oct 2024 15:10:43 GMT</pubDate>
+  </item><item>
+    <title>Запуск LogSeq в Ubuntu</title>
+    <link>https://mak-sim.ru/notes/Development/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA-LogSeq-%D0%B2-Ubuntu</link>
+    <guid>https://mak-sim.ru/notes/Development/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA-LogSeq-%D0%B2-Ubuntu</guid>
+    <description>Запуск LogSeq в Ubuntu При запуске некоторых AppImage в Ubuntu (например, LogSeq) может возникнуть следующая ошибка: ❯ ./Logseq-linux-x64-0.10.9_dcf8b41b9db5c9fe9f84938688e17f23.AppImage ...</description>
+    <pubDate>Mon, 28 Oct 2024 07:17:20 GMT</pubDate>
   </item><item>
     <title>Casio AW-81</title>
     <link>https://mak-sim.ru/notes/Personal/Casio-AW-81</link>
@@ -29,18 +41,6 @@
     <guid>https://mak-sim.ru/notes/Development/%D0%98%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-OTEL-%D0%B2-go</guid>
     <description>Инициализация OTEL в go Как можно раньше в коде следует выполнить блок инициализации телеметрии. Базовая инициализация package main import ( &quot;context&quot; &quot;fmt&quot; &quot;log&quot; &quot;time&quot; &quot;go.opentelemetry.io/otel&quot; &quot;go.opentelemetry.io/otel/exporters/otlp/otlptrace&quot; &quot;go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc&quot; &quot;go.opentelemetry.io/otel/sdk/resource&quot; sdktrace &quot;go.opentelemetry.io/otel/sdk/trace&quot; semconv &quot;go.opentelemetry.io/otel/semconv/v1.4.0&quot; ) const ( TRACER_NAME = &quot;demo_service&quot; ) func InstallExportPipeline() (func(context.Context) error, error) { traceClient := otlptracegrpc.NewClient( otlptracegrpc.WithInsecure(), otlptracegrpc.WithEndpoint(&quot;0.0.0.0:4317&quot;), ) sctx, cancel := context.WithTimeout(context.Background(), time.Second*5) defer cancel() traceExp, err := otlptrace.New(sctx, traceClient) if err != nil { log.Fatal(err) } if err != nil { return nil, fmt.Errorf(&quot;creating stdout exporter: %w&quot;, err) } res, err := resource.New(context.Background(), resource.WithFromEnv(), resource.WithProcess(), resource.WithTelemetrySDK(), resource.WithHost(), resource.WithAttributes( semconv.ServiceNameKey.String(TRACER_NAME), ), ) if err != nil { log.Fatal(err) } tracerProvider := sdktrace.NewTracerProvider( sdktrace.WithBatcher(traceExp), sdktrace.WithResource(res), ) otel.SetTracerProvider(tracerProvider) return tracerProvider.Shutdown, nil } Использование в основном коде const ( TRACER_NAME = &quot;demo_service&quot; ) var tracer = otel.Tracer(TRACER_NAME) func main() { ctx := context.Background() shutdown, err := InstallExportPipeline() if err != nil { log.Fatal(err) } Ну а далее от этого глобального tracer’а уже можно создавать спаны и жонглировать ими через контекст: newCtx, span := tracer.Start(r.Context(), &quot;/&quot;) defer span.End().</description>
     <pubDate>Mon, 14 Oct 2024 14:09:43 GMT</pubDate>
-  </item><item>
-    <title>Работа с teleport</title>
-    <link>https://mak-sim.ru/notes/Development/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-teleport</link>
-    <guid>https://mak-sim.ru/notes/Development/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-teleport</guid>
-    <description>Работа с teleport &gt; Платформа доступа Teleport — это набор программного обеспечения и управляемых услуг, который предоставляет доступ к инфраструктуре по запросу с минимальными ...</description>
-    <pubDate>Mon, 14 Oct 2024 11:54:39 GMT</pubDate>
-  </item><item>
-    <title>Teleport CLI</title>
-    <link>https://mak-sim.ru/notes/Development/Teleport-CLI</link>
-    <guid>https://mak-sim.ru/notes/Development/Teleport-CLI</guid>
-    <description>Teleport CLI Телепорт можно установить различными способами в том числе и пакетами для OS, но так как мне требуется только авторизация для использования в коде и работа с командно ...</description>
-    <pubDate>Mon, 14 Oct 2024 11:54:09 GMT</pubDate>
   </item><item>
     <title>OTEL Baggage. Golang</title>
     <link>https://mak-sim.ru/notes/Development/OTEL-Baggage.-Golang</link>

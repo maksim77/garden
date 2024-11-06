@@ -6,65 +6,65 @@
       <description>Последние 10 заметок on 🌱🖧 MakSim garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Teleport CLI</title>
-    <link>https://mak-sim.ru/notes/Development/Teleport-CLI</link>
-    <guid>https://mak-sim.ru/notes/Development/Teleport-CLI</guid>
-    <description>Teleport CLI Телепорт можно установить различными способами в том числе и пакетами для OS, но так как мне требуется только авторизация для использования в коде и работа с командно ...</description>
-    <pubDate>Mon, 28 Oct 2024 15:22:13 GMT</pubDate>
-  </item><item>
     <title>index</title>
     <link>https://mak-sim.ru/</link>
     <guid>https://mak-sim.ru/</guid>
     <description>Добро пожаловать в ещё один цифровой садик. По сути это небольшой кусочек моего Obsidian доступный всем. Большинство заметок здесь я специально не готовил к публикации и они видны “как есть”, что означает местами специфическое форматирование или хвосты каких-то плагинов которые не видны в интерфейсе Quartz.</description>
-    <pubDate>Mon, 28 Oct 2024 15:11:03 GMT</pubDate>
+    <pubDate>Wed, 06 Nov 2024 20:13:26 GMT</pubDate>
   </item><item>
-    <title>Работа с teleport</title>
-    <link>https://mak-sim.ru/notes/Development/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-teleport</link>
-    <guid>https://mak-sim.ru/notes/Development/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-teleport</guid>
-    <description>Работа с teleport &gt; Платформа доступа Teleport — это набор программного обеспечения и управляемых услуг, который предоставляет доступ к инфраструктуре по запросу с минимальными ...</description>
-    <pubDate>Mon, 28 Oct 2024 15:10:43 GMT</pubDate>
+    <title>retention.bytes</title>
+    <link>https://mak-sim.ru/notes/Development/retention.bytes</link>
+    <guid>https://mak-sim.ru/notes/Development/retention.bytes</guid>
+    <description>retention.bytes Параметр retention.bytes в Apache Kafka определяет максимальный размер данных, который может храниться в топике. Если размер данных в топике превышает указанное значение retention.bytes, Kafka начнет удалять самые старые сообщения, чтобы освободить место для новых.</description>
+    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
   </item><item>
-    <title>Запуск LogSeq в Ubuntu</title>
-    <link>https://mak-sim.ru/notes/Development/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA-LogSeq-%D0%B2-Ubuntu</link>
-    <guid>https://mak-sim.ru/notes/Development/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA-LogSeq-%D0%B2-Ubuntu</guid>
-    <description>Запуск LogSeq в Ubuntu При запуске некоторых AppImage в Ubuntu (например, LogSeq) может возникнуть следующая ошибка: ❯ ./Logseq-linux-x64-0.10.9_dcf8b41b9db5c9fe9f84938688e17f23.AppImage ...</description>
-    <pubDate>Mon, 28 Oct 2024 07:17:20 GMT</pubDate>
+    <title>min.insync.replicas</title>
+    <link>https://mak-sim.ru/notes/Development/min.insync.replicas</link>
+    <guid>https://mak-sim.ru/notes/Development/min.insync.replicas</guid>
+    <description>min.insync.replicas Параметр min.insync.replicas в Apache Kafka определяет минимальное количество реплик, которые должны быть в синхронизированном состоянии для того, чтобы ...</description>
+    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
   </item><item>
-    <title>Casio AW-81</title>
-    <link>https://mak-sim.ru/notes/Personal/Casio-AW-81</link>
-    <guid>https://mak-sim.ru/notes/Personal/Casio-AW-81</guid>
-    <description>Casio AW-81 Настройка аналогового времени В режиме Timekeeping нажать кнопку C шесть раз чтобы войти в Hand Setting Mode. Удерживать A пока цифровое время не начнёт мигать.</description>
-    <pubDate>Mon, 21 Oct 2024 09:24:04 GMT</pubDate>
+    <title>RedPanda docker quick start</title>
+    <link>https://mak-sim.ru/notes/Development/RedPanda-docker-quick-start</link>
+    <guid>https://mak-sim.ru/notes/Development/RedPanda-docker-quick-start</guid>
+    <description>RedPanda docker quick start name: redpanda-quickstart-one-broker networks: redpanda_network: driver: bridge volumes: redpanda-0: null services: redpanda-0: command: - ...</description>
+    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
   </item><item>
-    <title>Инициализация OTEL в go</title>
-    <link>https://mak-sim.ru/notes/Development/%D0%98%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-OTEL-%D0%B2-go</link>
-    <guid>https://mak-sim.ru/notes/Development/%D0%98%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-OTEL-%D0%B2-go</guid>
-    <description>Инициализация OTEL в go Как можно раньше в коде следует выполнить блок инициализации телеметрии. Базовая инициализация package main import ( &quot;context&quot; &quot;fmt&quot; &quot;log&quot; &quot;time&quot; &quot;go.opentelemetry.io/otel&quot; &quot;go.opentelemetry.io/otel/exporters/otlp/otlptrace&quot; &quot;go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc&quot; &quot;go.opentelemetry.io/otel/sdk/resource&quot; sdktrace &quot;go.opentelemetry.io/otel/sdk/trace&quot; semconv &quot;go.opentelemetry.io/otel/semconv/v1.4.0&quot; ) const ( TRACER_NAME = &quot;demo_service&quot; ) func InstallExportPipeline() (func(context.Context) error, error) { traceClient := otlptracegrpc.NewClient( otlptracegrpc.WithInsecure(), otlptracegrpc.WithEndpoint(&quot;0.0.0.0:4317&quot;), ) sctx, cancel := context.WithTimeout(context.Background(), time.Second*5) defer cancel() traceExp, err := otlptrace.New(sctx, traceClient) if err != nil { log.Fatal(err) } if err != nil { return nil, fmt.Errorf(&quot;creating stdout exporter: %w&quot;, err) } res, err := resource.New(context.Background(), resource.WithFromEnv(), resource.WithProcess(), resource.WithTelemetrySDK(), resource.WithHost(), resource.WithAttributes( semconv.ServiceNameKey.String(TRACER_NAME), ), ) if err != nil { log.Fatal(err) } tracerProvider := sdktrace.NewTracerProvider( sdktrace.WithBatcher(traceExp), sdktrace.WithResource(res), ) otel.SetTracerProvider(tracerProvider) return tracerProvider.Shutdown, nil } Использование в основном коде const ( TRACER_NAME = &quot;demo_service&quot; ) var tracer = otel.Tracer(TRACER_NAME) func main() { ctx := context.Background() shutdown, err := InstallExportPipeline() if err != nil { log.Fatal(err) } Ну а далее от этого глобального tracer’а уже можно создавать спаны и жонглировать ими через контекст: newCtx, span := tracer.Start(r.Context(), &quot;/&quot;) defer span.End().</description>
-    <pubDate>Mon, 14 Oct 2024 14:09:43 GMT</pubDate>
+    <title>Topic</title>
+    <link>https://mak-sim.ru/notes/Development/Topic</link>
+    <guid>https://mak-sim.ru/notes/Development/Topic</guid>
+    <description>Topic При создании Kafka топика необходимо учитывать несколько основных параметров: min.insync.replicas segment.bytes retention.bytes - любое удаление возможно только в ...</description>
+    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
   </item><item>
-    <title>OTEL Baggage. Golang</title>
-    <link>https://mak-sim.ru/notes/Development/OTEL-Baggage.-Golang</link>
-    <guid>https://mak-sim.ru/notes/Development/OTEL-Baggage.-Golang</guid>
-    <description>OTEL Baggage. Golang b, _ := baggage.NewMember(&quot;key&quot;, &quot;value&quot;) bag, _ := baggage.New(b) ctx = baggage.ContextWithBaggage(ctx, bag) Исходный контекст в этом примере мог быть создан например при старте нового span’а.</description>
-    <pubDate>Tue, 08 Oct 2024 19:16:33 GMT</pubDate>
+    <title>ZooKeeper GUI</title>
+    <link>https://mak-sim.ru/notes/Development/ZooKeeper-GUI</link>
+    <guid>https://mak-sim.ru/notes/Development/ZooKeeper-GUI</guid>
+    <description>ZooKeeper GUI Список GUI клиентов, что я использовал для работы с ZooKeeper. PrettyZoo Source:: github.com/vran-dev/PrettyZoo Project archived В июне 2024-ого проект заархивировн.</description>
+    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
   </item><item>
-    <title>Thrift</title>
-    <link>https://mak-sim.ru/notes/Development/Thrift</link>
-    <guid>https://mak-sim.ru/notes/Development/Thrift</guid>
-    <description>Thrift Children:: Thrift. Golang Children:: Thrift. Java Работу с Thrift можно разделить на следующие слои: Сервер Протокол Транспорт Протокол TBinaryProtocol — простой двоичный формат, кодирующий числовые значения как двоичные, а не преобразующий их в текст.</description>
-    <pubDate>Tue, 08 Oct 2024 12:43:30 GMT</pubDate>
+    <title>Работа с Kafka в Golang</title>
+    <link>https://mak-sim.ru/notes/Development/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-Kafka-%D0%B2-Golang</link>
+    <guid>https://mak-sim.ru/notes/Development/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-Kafka-%D0%B2-Golang</guid>
+    <description>Работа с Kafka в Golang kafka-go franz-go .</description>
+    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
   </item><item>
-    <title>Цветокоррекция</title>
-    <link>https://mak-sim.ru/notes/Development/%D0%A6%D0%B2%D0%B5%D1%82%D0%BE%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%86%D0%B8%D1%8F</link>
-    <guid>https://mak-sim.ru/notes/Development/%D0%A6%D0%B2%D0%B5%D1%82%D0%BE%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%86%D0%B8%D1%8F</guid>
-    <description>Цветокоррекция По факту я особо не разобрался но: Все действия происходят на вкладке Color. Вот на этой карттинке символ A в круге означает автоматическую корректировку баланса.</description>
-    <pubDate>Tue, 08 Oct 2024 12:43:30 GMT</pubDate>
+    <title>franz-go</title>
+    <link>https://mak-sim.ru/notes/Development/franz-go</link>
+    <guid>https://mak-sim.ru/notes/Development/franz-go</guid>
+    <description>franz-go source:: github.com/twmb/franz-go seeds := []string{&quot;localhost:9092&quot;} // One client can both produce and consume! // Consuming can either be direct (no ...</description>
+    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
   </item><item>
-    <title>00_GRPC</title>
-    <link>https://mak-sim.ru/notes/Development/00_GRPC</link>
-    <guid>https://mak-sim.ru/notes/Development/00_GRPC</guid>
-    <description>00_GRPC Установка GRPC в Golang Компиляция proto файла для Golang Подключение к GRPC server’у Создание перехватчика GRPC GRPC Reflection Friend:: Thrift ...</description>
-    <pubDate>Tue, 08 Oct 2024 12:43:30 GMT</pubDate>
+    <title>kafka-go</title>
+    <link>https://mak-sim.ru/notes/Development/kafka-go</link>
+    <guid>https://mak-sim.ru/notes/Development/kafka-go</guid>
+    <description>kafka-go Source:: github.com/segmentio/kafka-go Создание топика Так как топик можно создать лишь при обращении к контроллеру (во всяком случае в kafka-go) сначала необходимо ...</description>
+    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
+  </item><item>
+    <title>Apache Kafka</title>
+    <link>https://mak-sim.ru/notes/Development/Apache-Kafka</link>
+    <guid>https://mak-sim.ru/notes/Development/Apache-Kafka</guid>
+    <description>Apache Kafka Apache Kafka — это распределенная платформа потоковой обработки, которая позволяет обрабатывать и передавать потоки данных в реальном времени с высокой пропускной ...</description>
+    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
   </item>
     </channel>
   </rss>

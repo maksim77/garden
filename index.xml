@@ -6,11 +6,47 @@
       <description>Последние 10 заметок on 🌱🖧 MakSim garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>OTEL initialization</title>
+    <link>https://mak-sim.ru/notes/Development/OTEL-initialization</link>
+    <guid>https://mak-sim.ru/notes/Development/OTEL-initialization</guid>
+    <description>OTEL initialization Children:: Инициализация OTEL в go Children:: Базовая настройка OTEL для работы с Jaeger .</description>
+    <pubDate>Fri, 08 Nov 2024 20:40:36 GMT</pubDate>
+  </item><item>
+    <title>Базовая настройка OTEL для работы с Jaeger</title>
+    <link>https://mak-sim.ru/notes/Development/%D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-OTEL-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D1%81-Jaeger</link>
+    <guid>https://mak-sim.ru/notes/Development/%D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-OTEL-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D1%81-Jaeger</guid>
+    <description>Базовая настройка OTEL для работы с Jaeger Устарело Не вижу смысла использовать этот endpoint так как даже сам Jaeger умеет в OTLP Ниже приведена функция которая обеспечивает базовую ...</description>
+    <pubDate>Fri, 08 Nov 2024 20:39:52 GMT</pubDate>
+  </item><item>
+    <title>Инструментирование OTEL MongoDB</title>
+    <link>https://mak-sim.ru/notes/Development/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-OTEL-MongoDB</link>
+    <guid>https://mak-sim.ru/notes/Development/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-OTEL-MongoDB</guid>
+    <description>Инструментирование OTEL MongoDB Приведенный ниже пример не избавит от необходимости выолнять Инициализация OTEL в go но все дальнейшие подключения к монге будут покрываться ...</description>
+    <pubDate>Fri, 08 Nov 2024 20:35:46 GMT</pubDate>
+  </item><item>
+    <title>OTEL. Java</title>
+    <link>https://mak-sim.ru/notes/Development/OTEL.-Java</link>
+    <guid>https://mak-sim.ru/notes/Development/OTEL.-Java</guid>
+    <description>OTEL. Java Source:: github.com/open-telemetry/opentelemetry-java-examples/tree/main.</description>
+    <pubDate>Fri, 08 Nov 2024 20:34:57 GMT</pubDate>
+  </item><item>
     <title>index</title>
     <link>https://mak-sim.ru/</link>
     <guid>https://mak-sim.ru/</guid>
     <description>Добро пожаловать в ещё один цифровой садик. По сути это небольшой кусочек моего Obsidian доступный всем. Большинство заметок здесь я специально не готовил к публикации и они видны “как есть”, что означает местами специфическое форматирование или хвосты каких-то плагинов которые не видны в интерфейсе Quartz.</description>
-    <pubDate>Wed, 06 Nov 2024 20:13:26 GMT</pubDate>
+    <pubDate>Fri, 08 Nov 2024 20:33:53 GMT</pubDate>
+  </item><item>
+    <title>kerberos</title>
+    <link>https://mak-sim.ru/notes/Development/kerberos</link>
+    <guid>https://mak-sim.ru/notes/Development/kerberos</guid>
+    <description>kerberos Создание keytab-файла ktutil addent -password -p login@DOMAIN.RU -k 1 -e aes256-cts-hmac-sha1-96 Указываем пароль wkt sa0000techdq.keytab Просмотр файла [root@host ...</description>
+    <pubDate>Fri, 08 Nov 2024 20:32:50 GMT</pubDate>
+  </item><item>
+    <title>Apache Kafka</title>
+    <link>https://mak-sim.ru/notes/Development/Apache-Kafka</link>
+    <guid>https://mak-sim.ru/notes/Development/Apache-Kafka</guid>
+    <description>Apache Kafka Apache Kafka — это распределенная платформа потоковой обработки, которая позволяет обрабатывать и передавать потоки данных в реальном времени с высокой пропускной ...</description>
+    <pubDate>Wed, 06 Nov 2024 20:18:12 GMT</pubDate>
   </item><item>
     <title>retention.bytes</title>
     <link>https://mak-sim.ru/notes/Development/retention.bytes</link>
@@ -28,42 +64,6 @@
     <link>https://mak-sim.ru/notes/Development/RedPanda-docker-quick-start</link>
     <guid>https://mak-sim.ru/notes/Development/RedPanda-docker-quick-start</guid>
     <description>RedPanda docker quick start name: redpanda-quickstart-one-broker networks: redpanda_network: driver: bridge volumes: redpanda-0: null services: redpanda-0: command: - ...</description>
-    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
-  </item><item>
-    <title>Topic</title>
-    <link>https://mak-sim.ru/notes/Development/Topic</link>
-    <guid>https://mak-sim.ru/notes/Development/Topic</guid>
-    <description>Topic При создании Kafka топика необходимо учитывать несколько основных параметров: min.insync.replicas segment.bytes retention.bytes - любое удаление возможно только в ...</description>
-    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
-  </item><item>
-    <title>ZooKeeper GUI</title>
-    <link>https://mak-sim.ru/notes/Development/ZooKeeper-GUI</link>
-    <guid>https://mak-sim.ru/notes/Development/ZooKeeper-GUI</guid>
-    <description>ZooKeeper GUI Список GUI клиентов, что я использовал для работы с ZooKeeper. PrettyZoo Source:: github.com/vran-dev/PrettyZoo Project archived В июне 2024-ого проект заархивировн.</description>
-    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
-  </item><item>
-    <title>Работа с Kafka в Golang</title>
-    <link>https://mak-sim.ru/notes/Development/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-Kafka-%D0%B2-Golang</link>
-    <guid>https://mak-sim.ru/notes/Development/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-Kafka-%D0%B2-Golang</guid>
-    <description>Работа с Kafka в Golang kafka-go franz-go .</description>
-    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
-  </item><item>
-    <title>franz-go</title>
-    <link>https://mak-sim.ru/notes/Development/franz-go</link>
-    <guid>https://mak-sim.ru/notes/Development/franz-go</guid>
-    <description>franz-go source:: github.com/twmb/franz-go seeds := []string{&quot;localhost:9092&quot;} // One client can both produce and consume! // Consuming can either be direct (no ...</description>
-    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
-  </item><item>
-    <title>kafka-go</title>
-    <link>https://mak-sim.ru/notes/Development/kafka-go</link>
-    <guid>https://mak-sim.ru/notes/Development/kafka-go</guid>
-    <description>kafka-go Source:: github.com/segmentio/kafka-go Создание топика Так как топик можно создать лишь при обращении к контроллеру (во всяком случае в kafka-go) сначала необходимо ...</description>
-    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
-  </item><item>
-    <title>Apache Kafka</title>
-    <link>https://mak-sim.ru/notes/Development/Apache-Kafka</link>
-    <guid>https://mak-sim.ru/notes/Development/Apache-Kafka</guid>
-    <description>Apache Kafka Apache Kafka — это распределенная платформа потоковой обработки, которая позволяет обрабатывать и передавать потоки данных в реальном времени с высокой пропускной ...</description>
     <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
   </item>
     </channel>

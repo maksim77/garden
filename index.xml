@@ -6,6 +6,12 @@
       <description>Последние 10 заметок on 🌱🖧 MakSim garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Проброс span Opentelemetry через текстовое поле</title>
+    <link>https://mak-sim.ru/notes/Development/%D0%9F%D1%80%D0%BE%D0%B1%D1%80%D0%BE%D1%81-span-Opentelemetry-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%BF%D0%BE%D0%BB%D0%B5</link>
+    <guid>https://mak-sim.ru/notes/Development/%D0%9F%D1%80%D0%BE%D0%B1%D1%80%D0%BE%D1%81-span-Opentelemetry-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%BF%D0%BE%D0%BB%D0%B5</guid>
+    <description>Проброс span Opentelemetry через текстовое поле Для того чтобы пробросить span просто в текстовом виде можно выполнить следующее: m := make(map[string]string) otel.GetTextMapPropagator().Inject(r.Context(), ...</description>
+    <pubDate>Sat, 09 Nov 2024 20:37:38 GMT</pubDate>
+  </item><item>
     <title>OTEL initialization</title>
     <link>https://mak-sim.ru/notes/Development/OTEL-initialization</link>
     <guid>https://mak-sim.ru/notes/Development/OTEL-initialization</guid>
@@ -58,12 +64,6 @@
     <link>https://mak-sim.ru/notes/Development/min.insync.replicas</link>
     <guid>https://mak-sim.ru/notes/Development/min.insync.replicas</guid>
     <description>min.insync.replicas Параметр min.insync.replicas в Apache Kafka определяет минимальное количество реплик, которые должны быть в синхронизированном состоянии для того, чтобы ...</description>
-    <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
-  </item><item>
-    <title>RedPanda docker quick start</title>
-    <link>https://mak-sim.ru/notes/Development/RedPanda-docker-quick-start</link>
-    <guid>https://mak-sim.ru/notes/Development/RedPanda-docker-quick-start</guid>
-    <description>RedPanda docker quick start name: redpanda-quickstart-one-broker networks: redpanda_network: driver: bridge volumes: redpanda-0: null services: redpanda-0: command: - ...</description>
     <pubDate>Wed, 06 Nov 2024 20:11:59 GMT</pubDate>
   </item>
     </channel>

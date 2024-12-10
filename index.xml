@@ -6,6 +6,12 @@
       <description>Последние 10 заметок on 🌱🖧 MakSim garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Cypher</title>
+    <link>https://mak-sim.ru/notes/Development/Cypher</link>
+    <guid>https://mak-sim.ru/notes/Development/Cypher</guid>
+    <description>Cypher Создание узлов с помощью MERGE Запрос: MERGE (a:Person {name: $name, age: $age}) Объяснение: MERGE: Проверяет, существует ли узел с указанными свойствами ...</description>
+    <pubDate>Tue, 10 Dec 2024 19:52:18 GMT</pubDate>
+  </item><item>
     <title>index</title>
     <link>https://mak-sim.ru/</link>
     <guid>https://mak-sim.ru/</guid>
@@ -17,12 +23,6 @@
     <guid>https://mak-sim.ru/notes/Development/Neo4j</guid>
     <description>Neo4j Neo4j — это графовая база данных, которая позволяет хранить и обрабатывать данные в виде графов. В отличие от традиционных реляционных баз данных, Neo4j использует узлы (nodes) и связи (relationships) для представления информации, что делает её особенно эффективной для работы с сложными взаимосвязями между данными.</description>
     <pubDate>Tue, 10 Dec 2024 19:46:05 GMT</pubDate>
-  </item><item>
-    <title>Cypher</title>
-    <link>https://mak-sim.ru/notes/Development/Cypher</link>
-    <guid>https://mak-sim.ru/notes/Development/Cypher</guid>
-    <description>Cypher Создание узлов с помощью MERGE Запрос: MERGE (a:Person {name: $name, age: $age}) Объяснение: MERGE: Проверяет, существует ли узел с указанными свойствами ...</description>
-    <pubDate>Tue, 10 Dec 2024 19:45:45 GMT</pubDate>
   </item><item>
     <title>ReplicaSet</title>
     <link>https://mak-sim.ru/notes/Development/ReplicaSet</link>

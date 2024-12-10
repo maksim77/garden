@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://mak-sim.ru/</loc>
-    <lastmod>2024-11-10T09:06:47.990Z</lastmod>
+    <lastmod>2024-12-10T19:47:15.950Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/00_DaVinci-Resolve</loc>
     <lastmod>2024-10-08T08:53:38.520Z</lastmod>
@@ -13,6 +13,9 @@
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/Apache-Kafka</loc>
     <lastmod>2024-11-06T20:18:12.880Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/Development/Cypher</loc>
+    <lastmod>2024-12-10T19:45:45.930Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/Deployment</loc>
     <lastmod>2024-11-11T04:58:38.490Z</lastmod>
@@ -40,6 +43,9 @@
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/Locate-%D0%B2-MacOS</loc>
     <lastmod>2024-11-10T08:47:09.280Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/Development/Neo4j</loc>
+    <lastmod>2024-12-10T19:46:05.930Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/OTEL-Baggage.-Golang</loc>
     <lastmod>2024-10-08T19:16:33.360Z</lastmod>

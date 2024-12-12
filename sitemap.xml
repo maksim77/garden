@@ -15,7 +15,7 @@
     <lastmod>2024-11-06T20:18:12.880Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/Cypher</loc>
-    <lastmod>2024-12-10T19:52:18.230Z</lastmod>
+    <lastmod>2024-12-12T12:44:03.960Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/Deployment</loc>
     <lastmod>2024-11-11T04:58:38.490Z</lastmod>
@@ -45,7 +45,7 @@
     <lastmod>2024-11-10T08:47:09.280Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/Neo4j</loc>
-    <lastmod>2024-12-10T19:46:05.930Z</lastmod>
+    <lastmod>2024-12-12T07:00:01.890Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/OTEL-Baggage.-Golang</loc>
     <lastmod>2024-10-08T19:16:33.360Z</lastmod>
@@ -57,7 +57,7 @@
     <lastmod>2024-10-05T16:45:54.300Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/OTEL.-Golang</loc>
-    <lastmod>2024-11-10T08:56:23.890Z</lastmod>
+    <lastmod>2024-12-12T12:38:09.690Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/OTEL.-Java</loc>
     <lastmod>2024-11-08T20:34:57.520Z</lastmod>
@@ -161,6 +161,9 @@
     <loc>https://mak-sim.ru/notes/Development/min.insync.replicas</loc>
     <lastmod>2024-11-06T20:11:59.350Z</lastmod>
   </url><url>
+    <loc>https://mak-sim.ru/notes/Development/neo4j-%D0%B2-Golang</loc>
+    <lastmod>2024-12-12T12:50:18.730Z</lastmod>
+  </url><url>
     <loc>https://mak-sim.ru/notes/Development/retention.bytes</loc>
     <lastmod>2024-11-06T20:11:59.370Z</lastmod>
   </url><url>
@@ -189,7 +192,13 @@
     <lastmod>2024-10-14T14:09:43.930Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-OTEL-MongoDB</loc>
-    <lastmod>2024-11-08T20:35:46.370Z</lastmod>
+    <lastmod>2024-12-12T06:40:04.850Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/Development/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-OTEL-Redis-(KeyDB)</loc>
+    <lastmod>2024-12-12T06:48:40.900Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/Development/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-OTEL-neo4j</loc>
+    <lastmod>2024-12-12T12:47:32.760Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Development/%D0%9A%D0%B0%D0%BA-%D0%BF%D0%B5%D1%80%D0%B5%D0%B8%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%BA%D0%B0%D0%BC%D0%B5%D1%80%D1%8B-%D0%B2-Multicam</loc>
     <lastmod>2024-10-08T08:56:48.550Z</lastmod>

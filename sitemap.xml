@@ -128,8 +128,17 @@
     <loc>https://mak-sim.ru/notes/OLTP-vs-OLAP</loc>
     <lastmod>2024-12-23T19:50:16.010Z</lastmod>
   </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Connectors</loc>
+    <lastmod>2024-12-24T20:26:55.440Z</lastmod>
+  </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/Exporter</loc>
     <lastmod>2024-12-20T05:42:54.960Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Exporters</loc>
+    <lastmod>2024-12-24T19:58:55.210Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Extension</loc>
+    <lastmod>2024-12-24T20:27:05.440Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/LogRecordExporter</loc>
     <lastmod>2024-12-20T05:42:55.660Z</lastmod>
@@ -159,7 +168,7 @@
     <lastmod>2024-12-20T05:42:54.370Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/OTEL-Collector</loc>
-    <lastmod>2024-12-24T19:18:35.020Z</lastmod>
+    <lastmod>2024-12-24T20:02:15.240Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/OTEL-Logs</loc>
     <lastmod>2024-12-20T05:42:54.990Z</lastmod>
@@ -168,7 +177,7 @@
     <lastmod>2024-12-20T05:42:55.050Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/OTEL-Resource</loc>
-    <lastmod>2024-12-23T19:46:35.950Z</lastmod>
+    <lastmod>2024-12-24T20:27:25.440Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/OTEL-SDK</loc>
     <lastmod>2024-12-20T05:42:54.620Z</lastmod>
@@ -193,6 +202,12 @@
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/OpenTelemetry</loc>
     <lastmod>2024-12-21T16:21:37.010Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Processors</loc>
+    <lastmod>2024-12-24T19:56:55.190Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Receivers</loc>
+    <lastmod>2024-12-24T19:56:45.190Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/Span</loc>
     <lastmod>2024-12-23T19:46:35.940Z</lastmod>

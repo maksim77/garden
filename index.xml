@@ -6,11 +6,47 @@
       <description>Последние 10 заметок on 🌱🖧 MakSim garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>OTEL Resource</title>
+    <link>https://mak-sim.ru/notes/OTEL/OTEL-Resource</link>
+    <guid>https://mak-sim.ru/notes/OTEL/OTEL-Resource</guid>
+    <description>OTEL Resource Ресурсы — это набор атрибутов, которые описывают сущность, создающую телеметрию, в контексте API OpenTelemetry. Они предоставляют контекст для данных телеметрии, таких как метрики, логи и трейсы, и помогают идентифицировать источник этих данных.</description>
+    <pubDate>Tue, 24 Dec 2024 20:27:25 GMT</pubDate>
+  </item><item>
+    <title>Extension</title>
+    <link>https://mak-sim.ru/notes/OTEL/Extension</link>
+    <guid>https://mak-sim.ru/notes/OTEL/Extension</guid>
+    <description>Extension Extension - это дополнительные компоненты, которые расширяют возможности коллектора для выполнения задач, не связанных непосредственно с обработкой телеметрических ...</description>
+    <pubDate>Tue, 24 Dec 2024 20:27:05 GMT</pubDate>
+  </item><item>
+    <title>Connectors</title>
+    <link>https://mak-sim.ru/notes/OTEL/Connectors</link>
+    <guid>https://mak-sim.ru/notes/OTEL/Connectors</guid>
+    <description>Connectors Connectors соединяют два конвейера, выступая в роли экспортера и приемника. Коннектор потребляет данные как экспортер в конце одного конвейера и испускает данные как приемник в начале другого конвейера.</description>
+    <pubDate>Tue, 24 Dec 2024 20:26:55 GMT</pubDate>
+  </item><item>
     <title>OTEL Collector</title>
     <link>https://mak-sim.ru/notes/OTEL/OTEL-Collector</link>
     <guid>https://mak-sim.ru/notes/OTEL/OTEL-Collector</guid>
-    <description>OTEL Collector OpenTelemetry Collector — это компонент в экосистеме OpenTelemetry, предназначенный для сбора, обработки и передачи телеметрических данных (метрик, логов и ...</description>
-    <pubDate>Tue, 24 Dec 2024 19:18:35 GMT</pubDate>
+    <description>OTEL Collector Source:: opentelemetry.io/docs/collector/ OpenTelemetry Collector — это компонент в экосистеме OpenTelemetry, предназначенный для сбора, обработки и передачи ...</description>
+    <pubDate>Tue, 24 Dec 2024 20:02:15 GMT</pubDate>
+  </item><item>
+    <title>Exporters</title>
+    <link>https://mak-sim.ru/notes/OTEL/Exporters</link>
+    <guid>https://mak-sim.ru/notes/OTEL/Exporters</guid>
+    <description>Exporters Exporters отправляют данные в один или несколько бэкендов или пунктов назначения. Экспортеры могут быть как «pull», так и «push», и могут поддерживать один или несколько источников данных.</description>
+    <pubDate>Tue, 24 Dec 2024 19:58:55 GMT</pubDate>
+  </item><item>
+    <title>Processors</title>
+    <link>https://mak-sim.ru/notes/OTEL/Processors</link>
+    <guid>https://mak-sim.ru/notes/OTEL/Processors</guid>
+    <description>Processors Processors - получают данные, собранные приемниками, и изменяют или преобразуют их перед отправкой экспортерам. Обработка данных происходит в соответствии с правилами или настройками, определенными для каждого процессора, которые могут включать фильтрацию, отбрасывание, переименование или пересчет телеметрии, а также другие операции.</description>
+    <pubDate>Tue, 24 Dec 2024 19:56:55 GMT</pubDate>
+  </item><item>
+    <title>Receivers</title>
+    <link>https://mak-sim.ru/notes/OTEL/Receivers</link>
+    <guid>https://mak-sim.ru/notes/OTEL/Receivers</guid>
+    <description>Receivers Receivers получают данные телеметрии из внешних источников. Например стандартный OTLP.</description>
+    <pubDate>Tue, 24 Dec 2024 19:56:45 GMT</pubDate>
   </item><item>
     <title>Тед Янг, Остин Паркер-Изучаем OpenTelemetry</title>
     <link>https://mak-sim.ru/books/%D0%A2%D0%B5%D0%B4-%D0%AF%D0%BD%D0%B3,-%D0%9E%D1%81%D1%82%D0%B8%D0%BD-%D0%9F%D0%B0%D1%80%D0%BA%D0%B5%D1%80-%D0%98%D0%B7%D1%83%D1%87%D0%B0%D0%B5%D0%BC-OpenTelemetry</link>
@@ -29,42 +65,6 @@
     <guid>https://mak-sim.ru/</guid>
     <description>Index Добро пожаловать в ещё один цифровой садик. По сути это небольшой кусочек моего Obsidian доступный всем. Большинство заметок здесь я специально не готовил к публикации и они видны “как есть”, что означает местами специфическое форматирование или хвост ы каких-то плагинов которые не видны в интерфейсе Quartz.</description>
     <pubDate>Tue, 24 Dec 2024 18:58:34 GMT</pubDate>
-  </item><item>
-    <title>Планирование и расчёт конфигурации кластера</title>
-    <link>https://mak-sim.ru/notes/%D0%9F%D0%BB%D0%B0%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B8-%D1%80%D0%B0%D1%81%D1%87%D1%91%D1%82-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8-%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B0</link>
-    <guid>https://mak-sim.ru/notes/%D0%9F%D0%BB%D0%B0%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B8-%D1%80%D0%B0%D1%81%D1%87%D1%91%D1%82-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8-%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B0</guid>
-    <description>Планирование и расчёт конфигурации кластера Важнейшие параметры кластера Greenplum Количество сегмент-хостов. Это основные узлы, на которых хранятся и обрабатываются данные.</description>
-    <pubDate>Tue, 24 Dec 2024 18:48:54 GMT</pubDate>
-  </item><item>
-    <title>Архитектура Greenplum</title>
-    <link>https://mak-sim.ru/notes/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-Greenplum</link>
-    <guid>https://mak-sim.ru/notes/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-Greenplum</guid>
-    <description>Архитектура Greenplum Кластер Greenplum должен состоять из нескольких хостов. Мастер-хост - через него подключаются клиенты к кластеру. Резервный мастер-хост - standbay для мастера.</description>
-    <pubDate>Tue, 24 Dec 2024 18:43:14 GMT</pubDate>
-  </item><item>
-    <title>MPP</title>
-    <link>https://mak-sim.ru/notes/MPP</link>
-    <guid>https://mak-sim.ru/notes/MPP</guid>
-    <description>MPP MPP, также известная как массивно-параллельная архитектура, является типом распределенной параллельной вычислительной архитектуры, которая представляет собой систему, ...</description>
-    <pubDate>Tue, 24 Dec 2024 18:42:54 GMT</pubDate>
-  </item><item>
-    <title>Общая информация по Greenplum</title>
-    <link>https://mak-sim.ru/notes/%D0%9E%D0%B1%D1%89%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-Greenplum</link>
-    <guid>https://mak-sim.ru/notes/%D0%9E%D0%B1%D1%89%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-Greenplum</guid>
-    <description>Общая информация по Greenplum Greenplum обладает признаками и функциональностью реляционной СУБД. У Greenplum массивно-параллельная архитектура. Высокие накладные расходы на запуск запроса.</description>
-    <pubDate>Tue, 24 Dec 2024 18:42:44 GMT</pubDate>
-  </item><item>
-    <title>Dependency Injection</title>
-    <link>https://mak-sim.ru/notes/Dependency-Injection</link>
-    <guid>https://mak-sim.ru/notes/Dependency-Injection</guid>
-    <description>Dependency Injection.</description>
-    <pubDate>Tue, 24 Dec 2024 18:41:34 GMT</pubDate>
-  </item><item>
-    <title>Install swagger on Mac OS</title>
-    <link>https://mak-sim.ru/notes/Install-swagger-on-Mac-OS</link>
-    <guid>https://mak-sim.ru/notes/Install-swagger-on-Mac-OS</guid>
-    <description>Install swagger on Mac OS brew install swagger-codegen.</description>
-    <pubDate>Tue, 24 Dec 2024 18:35:54 GMT</pubDate>
   </item>
     </channel>
   </rss>

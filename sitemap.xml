@@ -1,12 +1,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://mak-sim.ru/</loc>
-    <lastmod>2024-12-24T14:11:53.170Z</lastmod>
+    <lastmod>2024-12-24T18:38:04.830Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/00_GRPC</loc>
     <lastmod>2024-12-20T05:42:54.880Z</lastmod>
-  </url><url>
-    <loc>https://mak-sim.ru/notes/00_Swagger--and--OpenAPI</loc>
-    <lastmod>2024-12-20T05:42:54.470Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/AST-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE</loc>
     <lastmod>2024-12-24T04:59:49.750Z</lastmod>
@@ -63,7 +60,7 @@
     <lastmod>2024-12-24T05:12:09.780Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Install-swagger-on-Mac-OS</loc>
-    <lastmod>2024-12-20T05:42:55.230Z</lastmod>
+    <lastmod>2024-12-24T18:35:54.840Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Kafka-Connect</loc>
     <lastmod>2024-12-20T05:42:54.390Z</lastmod>
@@ -275,6 +272,9 @@
     <loc>https://mak-sim.ru/notes/Squash-commit-in-git</loc>
     <lastmod>2024-11-10T09:00:53.910Z</lastmod>
   </url><url>
+    <loc>https://mak-sim.ru/notes/Swagger--and--OpenAPI</loc>
+    <lastmod>2024-12-24T18:35:54.830Z</lastmod>
+  </url><url>
     <loc>https://mak-sim.ru/notes/Teleport-CLI</loc>
     <lastmod>2024-12-23T14:42:14.170Z</lastmod>
   </url><url>
@@ -456,7 +456,7 @@
     <lastmod>2024-12-20T05:42:54.380Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B8%D0%BB%D1%8F%D1%86%D0%B8%D1%8F-swagger-%D0%B4%D0%BB%D1%8F-Golang</loc>
-    <lastmod>2024-12-20T05:42:55.350Z</lastmod>
+    <lastmod>2024-12-24T18:35:54.840Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/%D0%9B%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%80%D0%B5%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F-PostgreSQL</loc>
     <lastmod>2024-12-20T05:42:55.640Z</lastmod>

@@ -6,17 +6,23 @@
       <description>Последние 10 заметок on 🌱🖧 MakSim garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Учебник по awk</title>
+    <link>https://mak-sim.ru/notes/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA-%D0%BF%D0%BE-awk</link>
+    <guid>https://mak-sim.ru/notes/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA-%D0%BF%D0%BE-awk</guid>
+    <description>Учебник по awk .</description>
+    <pubDate>Tue, 24 Dec 2024 14:37:23 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://mak-sim.ru/</link>
+    <guid>https://mak-sim.ru/</guid>
+    <description>Index Добро пожаловать в ещё один цифровой садик. По сути это небольшой кусочек моего Obsidian доступный всем. Большинство заметок здесь я специально не готовил к публикации и они видны “как есть”, что означает местами специфическое форматирование или хвосты каких-то плагинов которые не видны в интерфейсе Quartz.</description>
+    <pubDate>Tue, 24 Dec 2024 14:11:53 GMT</pubDate>
+  </item><item>
     <title>Gitcheck dev notes</title>
     <link>https://mak-sim.ru/notes/Gitcheck-dev-notes</link>
     <guid>https://mak-sim.ru/notes/Gitcheck-dev-notes</guid>
     <description>Gitcheck dev notes Azure DevOps Marketplace console Вот здесь расположена консоль управления экстеншенами.</description>
     <pubDate>Tue, 24 Dec 2024 13:29:22 GMT</pubDate>
-  </item><item>
-    <title>index</title>
-    <link>https://mak-sim.ru/</link>
-    <guid>https://mak-sim.ru/</guid>
-    <description>Добро пожаловать в ещё один цифровой садик. По сути это небольшой кусочек моего Obsidian доступный всем. Большинство заметок здесь я специально не готовил к публикации и они видны “как есть”, что означает местами специфическое форматирование или хвосты каких-то плагинов которые не видны в интерфейсе Quartz.</description>
-    <pubDate>Tue, 24 Dec 2024 13:27:42 GMT</pubDate>
   </item><item>
     <title>Настройка WebDAV на nginx</title>
     <link>https://mak-sim.ru/notes/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-WebDAV-%D0%BD%D0%B0-nginx</link>
@@ -59,12 +65,6 @@
     <guid>https://mak-sim.ru/notes/SchemaCrawler</guid>
     <description>SchemaCrawler Source:: www.schemacrawler.com curl -s &quot;get.sdkman.io&quot; | bash sdk install schemacrawler schemacrawler.sh --server postgresql --database trino ...</description>
     <pubDate>Tue, 24 Dec 2024 10:56:02 GMT</pubDate>
-  </item><item>
-    <title>VScode hotkeys</title>
-    <link>https://mak-sim.ru/notes/VScode-hotkeys</link>
-    <guid>https://mak-sim.ru/notes/VScode-hotkeys</guid>
-    <description>VScode hotkeys ⇧+⌥+I - создать курсор в конце каждой строки выделенного блока. ⇧+⌘+L - создать курсор для всех слов что сейчас выделены. ⇧+⌥+F - отформатировать документ.</description>
-    <pubDate>Tue, 24 Dec 2024 10:53:52 GMT</pubDate>
   </item>
     </channel>
   </rss>

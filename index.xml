@@ -6,11 +6,35 @@
       <description>Последние 10 заметок on 🌱🖧 MakSim garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Архитектура Greenplum</title>
+    <link>https://mak-sim.ru/notes/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-Greenplum</link>
+    <guid>https://mak-sim.ru/notes/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-Greenplum</guid>
+    <description>Архитектура Greenplum Кластер Greenplum должен состоять из нескольких хостов. Мастер-хост - через него подключаются клиенты к кластеру. Резервный мастер-хост - standbay для мастера.</description>
+    <pubDate>Tue, 24 Dec 2024 18:43:14 GMT</pubDate>
+  </item><item>
+    <title>MPP</title>
+    <link>https://mak-sim.ru/notes/MPP</link>
+    <guid>https://mak-sim.ru/notes/MPP</guid>
+    <description>MPP MPP, также известная как массивно-параллельная архитектура, является типом распределенной параллельной вычислительной архитектуры, которая представляет собой систему, ...</description>
+    <pubDate>Tue, 24 Dec 2024 18:42:54 GMT</pubDate>
+  </item><item>
+    <title>Общая информация по Greenplum</title>
+    <link>https://mak-sim.ru/notes/%D0%9E%D0%B1%D1%89%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-Greenplum</link>
+    <guid>https://mak-sim.ru/notes/%D0%9E%D0%B1%D1%89%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-Greenplum</guid>
+    <description>Общая информация по Greenplum Greenplum обладает признаками и функциональностью реляционной СУБД. У Greenplum массивно-параллельная архитектура. Высокие накладные расходы на запуск запроса.</description>
+    <pubDate>Tue, 24 Dec 2024 18:42:44 GMT</pubDate>
+  </item><item>
+    <title>Dependency Injection</title>
+    <link>https://mak-sim.ru/notes/Dependency-Injection</link>
+    <guid>https://mak-sim.ru/notes/Dependency-Injection</guid>
+    <description>Dependency Injection.</description>
+    <pubDate>Tue, 24 Dec 2024 18:41:34 GMT</pubDate>
+  </item><item>
     <title>index</title>
     <link>https://mak-sim.ru/</link>
     <guid>https://mak-sim.ru/</guid>
     <description>Index Добро пожаловать в ещё один цифровой садик. По сути это небольшой кусочек моего Obsidian доступный всем. Большинство заметок здесь я специально не готовил к публикации и они видны “как есть”, что означает местами специфическое форматирование или хвост ы каких-то плагинов которые не видны в интерфейсе Quartz.</description>
-    <pubDate>Tue, 24 Dec 2024 18:38:04 GMT</pubDate>
+    <pubDate>Tue, 24 Dec 2024 18:41:14 GMT</pubDate>
   </item><item>
     <title>Install swagger on Mac OS</title>
     <link>https://mak-sim.ru/notes/Install-swagger-on-Mac-OS</link>
@@ -41,30 +65,6 @@
     <guid>https://mak-sim.ru/notes/Gitcheck-dev-notes</guid>
     <description>Gitcheck dev notes Azure DevOps Marketplace console Вот здесь расположена консоль управления экстеншенами.</description>
     <pubDate>Tue, 24 Dec 2024 13:29:22 GMT</pubDate>
-  </item><item>
-    <title>Настройка WebDAV на nginx</title>
-    <link>https://mak-sim.ru/notes/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-WebDAV-%D0%BD%D0%B0-nginx</link>
-    <guid>https://mak-sim.ru/notes/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-WebDAV-%D0%BD%D0%B0-nginx</guid>
-    <description>Настройка WebDAV на nginx Оказывается WebDAV это не какой-то сервер, а просто расширение спецификации HTTP позволяющее манипулировать файлами на сервере ...</description>
-    <pubDate>Tue, 24 Dec 2024 11:22:22 GMT</pubDate>
-  </item><item>
-    <title>DB migrations в Golang</title>
-    <link>https://mak-sim.ru/notes/DB-migrations-%D0%B2-Golang</link>
-    <guid>https://mak-sim.ru/notes/DB-migrations-%D0%B2-Golang</guid>
-    <description>DB migrations в Golang github.com/golang-migrate/migrate/v4. Работает как cli и как библиотека для Go. CLI Создать новую миграцию: migrate create -ext sql -seq -dir db/migrations create_token_table Где -seq нужен чтобы миграции создавались с номерами вместо дат.</description>
-    <pubDate>Tue, 24 Dec 2024 10:59:42 GMT</pubDate>
-  </item><item>
-    <title>Работа с oauth2 в golang</title>
-    <link>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-oauth2-%D0%B2-golang</link>
-    <guid>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-oauth2-%D0%B2-golang</guid>
-    <description>Работа с oauth2 в golang За работу с методом авторизации oauth2 в golang отвечает пакет golang.org/x/oauth2. Создание объекта Config Прежде всего нам необходимо создать объект конфигурации Oauth: &amp;oauth2.Config{ ClientID: &quot;46197&quot;, ClientSecret: &quot;4759912abdd765ac1bba5f7d8ded0c112b3ee1ec&quot;, RedirectURL: &quot;http://localhost:8000/callback&quot;, Endpoint: endpoints.Strava, Scopes: []string{ &quot;activity:read_all&quot;, }, } В пакете golang.org/x/oauth2/endpoints можно найти эндопойнты для популярных сервисов.</description>
-    <pubDate>Tue, 24 Dec 2024 10:59:02 GMT</pubDate>
-  </item><item>
-    <title>Работа с restic</title>
-    <link>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-restic</link>
-    <guid>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-restic</guid>
-    <description>Работа с restic Переменные AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY RESTIC_PASSWORD RESTIC_REPOSITORY Инициализация репозитория restic init Просмотр снэпшотов restic ...</description>
-    <pubDate>Tue, 24 Dec 2024 10:58:42 GMT</pubDate>
   </item>
     </channel>
   </rss>

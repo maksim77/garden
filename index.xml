@@ -6,65 +6,65 @@
       <description>Последние 10 заметок on 🌱🖧 MakSim garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Gitcheck dev notes</title>
+    <link>https://mak-sim.ru/notes/Gitcheck-dev-notes</link>
+    <guid>https://mak-sim.ru/notes/Gitcheck-dev-notes</guid>
+    <description>Gitcheck dev notes Azure DevOps Marketplace console Вот здесь расположена консоль управления экстеншенами.</description>
+    <pubDate>Tue, 24 Dec 2024 13:29:22 GMT</pubDate>
+  </item><item>
     <title>index</title>
     <link>https://mak-sim.ru/</link>
     <guid>https://mak-sim.ru/</guid>
     <description>Добро пожаловать в ещё один цифровой садик. По сути это небольшой кусочек моего Obsidian доступный всем. Большинство заметок здесь я специально не готовил к публикации и они видны “как есть”, что означает местами специфическое форматирование или хвосты каких-то плагинов которые не видны в интерфейсе Quartz.</description>
-    <pubDate>Tue, 24 Dec 2024 05:19:39 GMT</pubDate>
+    <pubDate>Tue, 24 Dec 2024 13:27:42 GMT</pubDate>
   </item><item>
-    <title>Xiaomi Mi Cloud from python</title>
-    <link>https://mak-sim.ru/notes/Xiaomi-Mi-Cloud-from-python</link>
-    <guid>https://mak-sim.ru/notes/Xiaomi-Mi-Cloud-from-python</guid>
-    <description>Xiaomi Mi Cloud from python Настройка Получение токена от Gateway pip install micloud micloud -u maksim77ster@gmail.com -p &lt;password&gt; -c cn &gt; result.json Надо найти ...</description>
-    <pubDate>Tue, 24 Dec 2024 05:18:19 GMT</pubDate>
+    <title>Настройка WebDAV на nginx</title>
+    <link>https://mak-sim.ru/notes/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-WebDAV-%D0%BD%D0%B0-nginx</link>
+    <guid>https://mak-sim.ru/notes/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-WebDAV-%D0%BD%D0%B0-nginx</guid>
+    <description>Настройка WebDAV на nginx Оказывается WebDAV это не какой-то сервер, а просто расширение спецификации HTTP позволяющее манипулировать файлами на сервере ...</description>
+    <pubDate>Tue, 24 Dec 2024 11:22:22 GMT</pubDate>
   </item><item>
-    <title>Ansible become pass</title>
-    <link>https://mak-sim.ru/notes/Ansible-become-pass</link>
-    <guid>https://mak-sim.ru/notes/Ansible-become-pass</guid>
-    <description>Ansible become pass Become Pass определяется через переменную окружения ANSIBLE_BECOME_PASS.</description>
-    <pubDate>Tue, 24 Dec 2024 05:16:59 GMT</pubDate>
+    <title>DB migrations в Golang</title>
+    <link>https://mak-sim.ru/notes/DB-migrations-%D0%B2-Golang</link>
+    <guid>https://mak-sim.ru/notes/DB-migrations-%D0%B2-Golang</guid>
+    <description>DB migrations в Golang github.com/golang-migrate/migrate/v4. Работает как cli и как библиотека для Go. CLI Создать новую миграцию: migrate create -ext sql -seq -dir db/migrations create_token_table Где -seq нужен чтобы миграции создавались с номерами вместо дат.</description>
+    <pubDate>Tue, 24 Dec 2024 10:59:42 GMT</pubDate>
   </item><item>
-    <title>Инсталляция Ansible на старых серверах</title>
-    <link>https://mak-sim.ru/notes/%D0%98%D0%BD%D1%81%D1%82%D0%B0%D0%BB%D0%BB%D1%8F%D1%86%D0%B8%D1%8F-Ansible-%D0%BD%D0%B0-%D1%81%D1%82%D0%B0%D1%80%D1%8B%D1%85-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0%D1%85</link>
-    <guid>https://mak-sim.ru/notes/%D0%98%D0%BD%D1%81%D1%82%D0%B0%D0%BB%D0%BB%D1%8F%D1%86%D0%B8%D1%8F-Ansible-%D0%BD%D0%B0-%D1%81%D1%82%D0%B0%D1%80%D1%8B%D1%85-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0%D1%85</guid>
-    <description>Инсталляция Ansible на старых серверах Обновить pip до версии &lt;21: python3.6 -m pip install -U &quot;pip&lt;21&quot; Установить ansible версии 2.5: python3.6 -m pip install ...</description>
-    <pubDate>Tue, 24 Dec 2024 05:16:39 GMT</pubDate>
+    <title>Работа с oauth2 в golang</title>
+    <link>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-oauth2-%D0%B2-golang</link>
+    <guid>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-oauth2-%D0%B2-golang</guid>
+    <description>Работа с oauth2 в golang За работу с методом авторизации oauth2 в golang отвечает пакет golang.org/x/oauth2. Создание объекта Config Прежде всего нам необходимо создать объект конфигурации Oauth: &amp;oauth2.Config{ ClientID: &quot;46197&quot;, ClientSecret: &quot;4759912abdd765ac1bba5f7d8ded0c112b3ee1ec&quot;, RedirectURL: &quot;http://localhost:8000/callback&quot;, Endpoint: endpoints.Strava, Scopes: []string{ &quot;activity:read_all&quot;, }, } В пакете golang.org/x/oauth2/endpoints можно найти эндопойнты для популярных сервисов.</description>
+    <pubDate>Tue, 24 Dec 2024 10:59:02 GMT</pubDate>
   </item><item>
-    <title>Поиск процесса слушающего порт</title>
-    <link>https://mak-sim.ru/notes/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B0-%D1%81%D0%BB%D1%83%D1%88%D0%B0%D1%8E%D1%89%D0%B5%D0%B3%D0%BE-%D0%BF%D0%BE%D1%80%D1%82</link>
-    <guid>https://mak-sim.ru/notes/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B0-%D1%81%D0%BB%D1%83%D1%88%D0%B0%D1%8E%D1%89%D0%B5%D0%B3%D0%BE-%D0%BF%D0%BE%D1%80%D1%82</guid>
-    <description>Поиск процесса слушающего порт Для того чтобы найти какой процесс в Unix или MacOS слушает некий порт необходимо выполнить: lsof -nP -iTCP -sTCP:LISTEN | grep 3000 или netstat -tulpn ...</description>
-    <pubDate>Tue, 24 Dec 2024 05:14:49 GMT</pubDate>
+    <title>Работа с restic</title>
+    <link>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-restic</link>
+    <guid>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-restic</guid>
+    <description>Работа с restic Переменные AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY RESTIC_PASSWORD RESTIC_REPOSITORY Инициализация репозитория restic init Просмотр снэпшотов restic ...</description>
+    <pubDate>Tue, 24 Dec 2024 10:58:42 GMT</pubDate>
   </item><item>
-    <title>Linux cd back to 1 step</title>
-    <link>https://mak-sim.ru/notes/Linux-cd-back-to-1-step</link>
-    <guid>https://mak-sim.ru/notes/Linux-cd-back-to-1-step</guid>
-    <description>Linux cd back to 1 step Для того чтобы вернуться в предыдущую директорию в shell Linux можно выполнить команду cd - она вернёт нас в предыдущую директорию. ...</description>
-    <pubDate>Tue, 24 Dec 2024 05:14:09 GMT</pubDate>
+    <title>VirtualBox with UEFI Secure Boot</title>
+    <link>https://mak-sim.ru/notes/VirtualBox-with-UEFI-Secure-Boot</link>
+    <guid>https://mak-sim.ru/notes/VirtualBox-with-UEFI-Secure-Boot</guid>
+    <description>VirtualBox with UEFI Secure Boot Source:: superuser.com/questions/1438279/how-to-sign-a-kernel-module-ubuntu-18-04 Create a personal public/private RSA key pair to sign ...</description>
+    <pubDate>Tue, 24 Dec 2024 10:58:22 GMT</pubDate>
   </item><item>
-    <title>PostgreSQL on HomeBrew</title>
-    <link>https://mak-sim.ru/notes/PostgreSQL-on-HomeBrew</link>
-    <guid>https://mak-sim.ru/notes/PostgreSQL-on-HomeBrew</guid>
-    <description>PostgreSQL on HomeBrew Путь по которому лежат конфигурационные файлы и сами данные: /usr/local/var/postgresql@16 Обновление Postgres Остановить БД: brew services stop postgresql@15 ...</description>
-    <pubDate>Tue, 24 Dec 2024 05:13:59 GMT</pubDate>
+    <title>Добавление нового ядра в Jupyter notebook</title>
+    <link>https://mak-sim.ru/notes/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D1%8F%D0%B4%D1%80%D0%B0-%D0%B2-Jupyter-notebook</link>
+    <guid>https://mak-sim.ru/notes/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D1%8F%D0%B4%D1%80%D0%B0-%D0%B2-Jupyter-notebook</guid>
+    <description>Добавление нового ядра в Jupyter notebook Activate the virtualenv $ source your-venv/bin/activate Install jupyter in the virtualenv (your-venv)$ pip install jupyter Add the ...</description>
+    <pubDate>Tue, 24 Dec 2024 10:56:52 GMT</pubDate>
   </item><item>
-    <title>PostgreSQL upgrade</title>
-    <link>https://mak-sim.ru/notes/PostgreSQL-upgrade</link>
-    <guid>https://mak-sim.ru/notes/PostgreSQL-upgrade</guid>
-    <description>PostgreSQL upgrade /usr/lib/postgresql/16/bin/pg_upgrade --old-datadir /var/lib/postgresql/13/main/ --new-datadir /var/lib/postgresql/16/main --old-bindir /usr/lib/postgresql/13/bin/ ...</description>
-    <pubDate>Tue, 24 Dec 2024 05:13:29 GMT</pubDate>
+    <title>SchemaCrawler</title>
+    <link>https://mak-sim.ru/notes/SchemaCrawler</link>
+    <guid>https://mak-sim.ru/notes/SchemaCrawler</guid>
+    <description>SchemaCrawler Source:: www.schemacrawler.com curl -s &quot;get.sdkman.io&quot; | bash sdk install schemacrawler schemacrawler.sh --server postgresql --database trino ...</description>
+    <pubDate>Tue, 24 Dec 2024 10:56:02 GMT</pubDate>
   </item><item>
-    <title>Install SNMP on asus router</title>
-    <link>https://mak-sim.ru/notes/Install-SNMP-on-asus-router</link>
-    <guid>https://mak-sim.ru/notes/Install-SNMP-on-asus-router</guid>
-    <description>Install SNMP package on Asus Router ipkg list | grep snmp ipkg install net-snmp app_set_enabled.sh net-snmp yes Source:: fatmin.com/2013/11/13/install-and-configure-snmp-on-the-asus-rt-ac66u-router/ ...</description>
-    <pubDate>Tue, 24 Dec 2024 05:12:09 GMT</pubDate>
-  </item><item>
-    <title>tcpdump</title>
-    <link>https://mak-sim.ru/notes/tcpdump</link>
-    <guid>https://mak-sim.ru/notes/tcpdump</guid>
-    <description>tcpdump Вот так можно прослушать траффик с определенного хоста на определенном интерфейсе tcpdump -i ens192 host 11.222.10.249 -n .</description>
-    <pubDate>Tue, 24 Dec 2024 05:11:29 GMT</pubDate>
+    <title>VScode hotkeys</title>
+    <link>https://mak-sim.ru/notes/VScode-hotkeys</link>
+    <guid>https://mak-sim.ru/notes/VScode-hotkeys</guid>
+    <description>VScode hotkeys ⇧+⌥+I - создать курсор в конце каждой строки выделенного блока. ⇧+⌘+L - создать курсор для всех слов что сейчас выделены. ⇧+⌥+F - отформатировать документ.</description>
+    <pubDate>Tue, 24 Dec 2024 10:53:52 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://mak-sim.ru/</loc>
-    <lastmod>2024-12-24T05:19:39.800Z</lastmod>
+    <lastmod>2024-12-24T13:27:42.830Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/00_GRPC</loc>
     <lastmod>2024-12-20T05:42:54.880Z</lastmod>
@@ -20,8 +20,14 @@
     <loc>https://mak-sim.ru/notes/Casio-AW-81</loc>
     <lastmod>2024-12-20T05:42:54.420Z</lastmod>
   </url><url>
+    <loc>https://mak-sim.ru/notes/Context--and--select</loc>
+    <lastmod>2024-12-24T10:48:01.890Z</lastmod>
+  </url><url>
     <loc>https://mak-sim.ru/notes/Cypher</loc>
     <lastmod>2024-12-20T05:42:54.520Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/DB-migrations-%D0%B2-Golang</loc>
+    <lastmod>2024-12-24T10:59:42.030Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Deployment</loc>
     <lastmod>2024-12-20T05:42:54.400Z</lastmod>
@@ -43,6 +49,9 @@
   </url><url>
     <loc>https://mak-sim.ru/notes/GitHub-issue-search</loc>
     <lastmod>2024-11-10T09:02:23.800Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/Gitcheck-dev-notes</loc>
+    <lastmod>2024-12-24T13:29:22.840Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Gradle</loc>
     <lastmod>2024-12-23T19:40:55.910Z</lastmod>
@@ -97,6 +106,9 @@
   </url><url>
     <loc>https://mak-sim.ru/notes/Locate-%D0%B2-MacOS</loc>
     <lastmod>2024-11-10T08:47:09.280Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/MagicMouse-speed-settings</loc>
+    <lastmod>2024-12-24T10:50:11.920Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/MongoDB-CRUD</loc>
     <lastmod>2024-12-24T05:02:39.750Z</lastmod>
@@ -257,6 +269,9 @@
     <loc>https://mak-sim.ru/notes/Sampler</loc>
     <lastmod>2024-12-20T05:42:54.940Z</lastmod>
   </url><url>
+    <loc>https://mak-sim.ru/notes/SchemaCrawler</loc>
+    <lastmod>2024-12-24T10:56:02.010Z</lastmod>
+  </url><url>
     <loc>https://mak-sim.ru/notes/Squash-commit-in-git</loc>
     <lastmod>2024-11-10T09:00:53.910Z</lastmod>
   </url><url>
@@ -341,6 +356,9 @@
     <loc>https://mak-sim.ru/notes/Trino/%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-federated-query-%D0%BA%D0%B0%D0%BA-view</loc>
     <lastmod>2024-12-23T14:21:54.140Z</lastmod>
   </url><url>
+    <loc>https://mak-sim.ru/notes/VScode-hotkeys</loc>
+    <lastmod>2024-12-24T10:53:52.000Z</lastmod>
+  </url><url>
     <loc>https://mak-sim.ru/notes/Video/00_DaVinci-Resolve</loc>
     <lastmod>2024-12-20T05:42:55.380Z</lastmod>
   </url><url>
@@ -374,8 +392,8 @@
     <loc>https://mak-sim.ru/notes/Vim</loc>
     <lastmod>2024-12-23T19:52:16.040Z</lastmod>
   </url><url>
-    <loc>https://mak-sim.ru/notes/WebDAV</loc>
-    <lastmod>2024-12-20T05:42:54.690Z</lastmod>
+    <loc>https://mak-sim.ru/notes/VirtualBox-with-UEFI-Secure-Boot</loc>
+    <lastmod>2024-12-24T10:58:22.030Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Xiaomi-Mi-Cloud-from-python</loc>
     <lastmod>2024-12-24T05:18:19.800Z</lastmod>
@@ -416,6 +434,9 @@
     <loc>https://mak-sim.ru/notes/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-IP-%D0%B8-DNS-%D0%B2-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82-microk8s</loc>
     <lastmod>2024-12-20T05:42:54.790Z</lastmod>
   </url><url>
+    <loc>https://mak-sim.ru/notes/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D1%8F%D0%B4%D1%80%D0%B0-%D0%B2-Jupyter-notebook</loc>
+    <lastmod>2024-12-24T10:56:52.020Z</lastmod>
+  </url><url>
     <loc>https://mak-sim.ru/notes/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA-LogSeq-%D0%B2-Ubuntu</loc>
     <lastmod>2024-12-20T05:42:55.380Z</lastmod>
   </url><url>
@@ -424,6 +445,9 @@
   </url><url>
     <loc>https://mak-sim.ru/notes/%D0%98%D0%BD%D1%81%D1%82%D0%B0%D0%BB%D0%BB%D1%8F%D1%86%D0%B8%D1%8F-Ansible-%D0%BD%D0%B0-%D1%81%D1%82%D0%B0%D1%80%D1%8B%D1%85-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0%D1%85</loc>
     <lastmod>2024-12-24T05:16:39.790Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/%D0%9A%D0%B0%D0%BA-%D0%B7%D0%B0%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF-%D0%B4%D0%BE-%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-IP-%D0%B2-Ubuntu</loc>
+    <lastmod>2024-12-24T10:53:31.990Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/%D0%9A%D0%B0%D0%BA-%D0%BF%D0%BE%D1%81%D1%87%D0%B8%D1%82%D0%B0%D1%82%D1%8C-%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BB%D0%B0%D0%BD%D0%BE%D0%BA-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8-%D0%B2-Linux</loc>
     <lastmod>2024-12-20T05:42:54.370Z</lastmod>
@@ -436,6 +460,12 @@
   </url><url>
     <loc>https://mak-sim.ru/notes/%D0%9B%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%80%D0%B5%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F-PostgreSQL</loc>
     <lastmod>2024-12-20T05:42:55.640Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-OpenSearch-%D0%B4%D0%BB%D1%8F-%D0%BB%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8</loc>
+    <lastmod>2024-12-24T10:51:01.940Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-WebDAV-%D0%BD%D0%B0-nginx</loc>
+    <lastmod>2024-12-24T11:22:22.120Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-WireGuard</loc>
     <lastmod>2024-11-10T08:52:27.260Z</lastmod>
@@ -472,6 +502,15 @@
   </url><url>
     <loc>https://mak-sim.ru/notes/%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B0-Service-Account-%D0%B2-YC</loc>
     <lastmod>2024-12-20T05:42:54.550Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-JQ</loc>
+    <lastmod>2024-12-24T10:49:31.910Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-oauth2-%D0%B2-golang</loc>
+    <lastmod>2024-12-24T10:59:02.030Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-restic</loc>
+    <lastmod>2024-12-24T10:58:42.030Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-teleport</loc>
     <lastmod>2024-12-20T05:42:54.600Z</lastmod>

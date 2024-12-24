@@ -10,61 +10,61 @@
     <link>https://mak-sim.ru/</link>
     <guid>https://mak-sim.ru/</guid>
     <description>Добро пожаловать в ещё один цифровой садик. По сути это небольшой кусочек моего Obsidian доступный всем. Большинство заметок здесь я специально не готовил к публикации и они видны “как есть”, что означает местами специфическое форматирование или хвосты каких-то плагинов которые не видны в интерфейсе Quartz.</description>
-    <pubDate>Mon, 23 Dec 2024 19:54:46 GMT</pubDate>
+    <pubDate>Tue, 24 Dec 2024 05:19:39 GMT</pubDate>
   </item><item>
-    <title>NTLM авторизация в httpie</title>
-    <link>https://mak-sim.ru/notes/NTLM-%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-httpie</link>
-    <guid>https://mak-sim.ru/notes/NTLM-%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-httpie</guid>
-    <description>NTLM авторизация в httpie pip install httpie-ntlm /usr/local/Cellar/httpie/3.2.2/libexec/bin/python3.11 -m pip install httpie-ntlm http newportal.site.ru --verify=false ...</description>
-    <pubDate>Mon, 23 Dec 2024 19:54:26 GMT</pubDate>
+    <title>Xiaomi Mi Cloud from python</title>
+    <link>https://mak-sim.ru/notes/Xiaomi-Mi-Cloud-from-python</link>
+    <guid>https://mak-sim.ru/notes/Xiaomi-Mi-Cloud-from-python</guid>
+    <description>Xiaomi Mi Cloud from python Настройка Получение токена от Gateway pip install micloud micloud -u maksim77ster@gmail.com -p &lt;password&gt; -c cn &gt; result.json Надо найти ...</description>
+    <pubDate>Tue, 24 Dec 2024 05:18:19 GMT</pubDate>
   </item><item>
-    <title>Работа с регистрами Vim</title>
-    <link>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D0%BC%D0%B8-Vim</link>
-    <guid>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D0%BC%D0%B8-Vim</guid>
-    <description>Работа с регистрами Vim Регистры в Vim — это ячейки памяти, куда можно сохранять текст или команды для последующего использования, аналогично буферу обмена ...</description>
-    <pubDate>Mon, 23 Dec 2024 19:52:46 GMT</pubDate>
+    <title>Ansible become pass</title>
+    <link>https://mak-sim.ru/notes/Ansible-become-pass</link>
+    <guid>https://mak-sim.ru/notes/Ansible-become-pass</guid>
+    <description>Ansible become pass Become Pass определяется через переменную окружения ANSIBLE_BECOME_PASS.</description>
+    <pubDate>Tue, 24 Dec 2024 05:16:59 GMT</pubDate>
   </item><item>
-    <title>Перемещение по тексту Vim</title>
-    <link>https://mak-sim.ru/notes/%D0%9F%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D1%83-Vim</link>
-    <guid>https://mak-sim.ru/notes/%D0%9F%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D1%83-Vim</guid>
-    <description>Перемещение по тексту Vim КлавишаДействиеhВлево на один символjВниз на одну строкуkВверх на одну строкуlВправо на один символwВперёд на одно словоWВперёд на один блок текста ...</description>
-    <pubDate>Mon, 23 Dec 2024 19:52:36 GMT</pubDate>
+    <title>Инсталляция Ansible на старых серверах</title>
+    <link>https://mak-sim.ru/notes/%D0%98%D0%BD%D1%81%D1%82%D0%B0%D0%BB%D0%BB%D1%8F%D1%86%D0%B8%D1%8F-Ansible-%D0%BD%D0%B0-%D1%81%D1%82%D0%B0%D1%80%D1%8B%D1%85-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0%D1%85</link>
+    <guid>https://mak-sim.ru/notes/%D0%98%D0%BD%D1%81%D1%82%D0%B0%D0%BB%D0%BB%D1%8F%D1%86%D0%B8%D1%8F-Ansible-%D0%BD%D0%B0-%D1%81%D1%82%D0%B0%D1%80%D1%8B%D1%85-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0%D1%85</guid>
+    <description>Инсталляция Ansible на старых серверах Обновить pip до версии &lt;21: python3.6 -m pip install -U &quot;pip&lt;21&quot; Установить ansible версии 2.5: python3.6 -m pip install ...</description>
+    <pubDate>Tue, 24 Dec 2024 05:16:39 GMT</pubDate>
   </item><item>
-    <title>Основы Vim</title>
-    <link>https://mak-sim.ru/notes/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Vim</link>
-    <guid>https://mak-sim.ru/notes/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Vim</guid>
-    <description>Основы Vim Изучение базовых команд и концепций для эффективного использования текстового редактора Vim. Напиши заметку на эту тем Vim: основы работы с текстовым редактором Vim — это мощный текстовый редактор, который может быть полезен для программистов, системных администраторов и других специалистов, работающих с текстом.</description>
-    <pubDate>Mon, 23 Dec 2024 19:52:26 GMT</pubDate>
+    <title>Поиск процесса слушающего порт</title>
+    <link>https://mak-sim.ru/notes/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B0-%D1%81%D0%BB%D1%83%D1%88%D0%B0%D1%8E%D1%89%D0%B5%D0%B3%D0%BE-%D0%BF%D0%BE%D1%80%D1%82</link>
+    <guid>https://mak-sim.ru/notes/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B0-%D1%81%D0%BB%D1%83%D1%88%D0%B0%D1%8E%D1%89%D0%B5%D0%B3%D0%BE-%D0%BF%D0%BE%D1%80%D1%82</guid>
+    <description>Поиск процесса слушающего порт Для того чтобы найти какой процесс в Unix или MacOS слушает некий порт необходимо выполнить: lsof -nP -iTCP -sTCP:LISTEN | grep 3000 или netstat -tulpn ...</description>
+    <pubDate>Tue, 24 Dec 2024 05:14:49 GMT</pubDate>
   </item><item>
-    <title>Vim</title>
-    <link>https://mak-sim.ru/notes/Vim</link>
-    <guid>https://mak-sim.ru/notes/Vim</guid>
-    <description>Vim Основы Vim Перемещение по тексту Vim Работа с регистрами Vim .</description>
-    <pubDate>Mon, 23 Dec 2024 19:52:16 GMT</pubDate>
+    <title>Linux cd back to 1 step</title>
+    <link>https://mak-sim.ru/notes/Linux-cd-back-to-1-step</link>
+    <guid>https://mak-sim.ru/notes/Linux-cd-back-to-1-step</guid>
+    <description>Linux cd back to 1 step Для того чтобы вернуться в предыдущую директорию в shell Linux можно выполнить команду cd - она вернёт нас в предыдущую директорию. ...</description>
+    <pubDate>Tue, 24 Dec 2024 05:14:09 GMT</pubDate>
   </item><item>
-    <title>Olap Cube</title>
-    <link>https://mak-sim.ru/notes/Olap-Cube</link>
-    <guid>https://mak-sim.ru/notes/Olap-Cube</guid>
-    <description>Olap Cube OLAP-куб или куб-данных это материализованное представление где некоторые агрегаты уже посчитаны заранее. Пример: Parent:: Высоконагруженные приложения.</description>
-    <pubDate>Mon, 23 Dec 2024 19:50:36 GMT</pubDate>
+    <title>PostgreSQL on HomeBrew</title>
+    <link>https://mak-sim.ru/notes/PostgreSQL-on-HomeBrew</link>
+    <guid>https://mak-sim.ru/notes/PostgreSQL-on-HomeBrew</guid>
+    <description>PostgreSQL on HomeBrew Путь по которому лежат конфигурационные файлы и сами данные: /usr/local/var/postgresql@16 Обновление Postgres Остановить БД: brew services stop postgresql@15 ...</description>
+    <pubDate>Tue, 24 Dec 2024 05:13:59 GMT</pubDate>
   </item><item>
-    <title>OLTP vs OLAP</title>
-    <link>https://mak-sim.ru/notes/OLTP-vs-OLAP</link>
-    <guid>https://mak-sim.ru/notes/OLTP-vs-OLAP</guid>
-    <description>OLTP vs OLAP Обработка транзакций или аналитика? Два основных паттерна запросов к БД: OLTP Online transaction processing. Обработка транзакций в реальном времени.</description>
-    <pubDate>Mon, 23 Dec 2024 19:50:16 GMT</pubDate>
+    <title>PostgreSQL upgrade</title>
+    <link>https://mak-sim.ru/notes/PostgreSQL-upgrade</link>
+    <guid>https://mak-sim.ru/notes/PostgreSQL-upgrade</guid>
+    <description>PostgreSQL upgrade /usr/lib/postgresql/16/bin/pg_upgrade --old-datadir /var/lib/postgresql/13/main/ --new-datadir /var/lib/postgresql/16/main --old-bindir /usr/lib/postgresql/13/bin/ ...</description>
+    <pubDate>Tue, 24 Dec 2024 05:13:29 GMT</pubDate>
   </item><item>
-    <title>Высоконагруженные приложения</title>
-    <link>https://mak-sim.ru/notes/%D0%92%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%BD%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F</link>
-    <guid>https://mak-sim.ru/notes/%D0%92%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%BD%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F</guid>
-    <description>Высоконагруженные приложения Zotero PDF Предисловие DIA (data-intensive application) Высоконагруженные данными приложения. Узким местом является количество, скорость поступления или сложность данных.</description>
-    <pubDate>Mon, 23 Dec 2024 19:50:16 GMT</pubDate>
+    <title>Install SNMP on asus router</title>
+    <link>https://mak-sim.ru/notes/Install-SNMP-on-asus-router</link>
+    <guid>https://mak-sim.ru/notes/Install-SNMP-on-asus-router</guid>
+    <description>Install SNMP package on Asus Router ipkg list | grep snmp ipkg install net-snmp app_set_enabled.sh net-snmp yes Source:: fatmin.com/2013/11/13/install-and-configure-snmp-on-the-asus-rt-ac66u-router/ ...</description>
+    <pubDate>Tue, 24 Dec 2024 05:12:09 GMT</pubDate>
   </item><item>
-    <title>Создание ServiceAccount и токена к нему</title>
-    <link>https://mak-sim.ru/notes/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-ServiceAccount-%D0%B8-%D1%82%D0%BE%D0%BA%D0%B5%D0%BD%D0%B0-%D0%BA-%D0%BD%D0%B5%D0%BC%D1%83</link>
-    <guid>https://mak-sim.ru/notes/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-ServiceAccount-%D0%B8-%D1%82%D0%BE%D0%BA%D0%B5%D0%BD%D0%B0-%D0%BA-%D0%BD%D0%B5%D0%BC%D1%83</guid>
-    <description>Создание ServiceAccount и токена к нему kind: ServiceAccount apiVersion: v1 metadata: name: broker-prod namespace: prod --- apiVersion: rbac.authorization.k8s.io/v1 kind: ...</description>
-    <pubDate>Mon, 23 Dec 2024 19:49:15 GMT</pubDate>
+    <title>tcpdump</title>
+    <link>https://mak-sim.ru/notes/tcpdump</link>
+    <guid>https://mak-sim.ru/notes/tcpdump</guid>
+    <description>tcpdump Вот так можно прослушать траффик с определенного хоста на определенном интерфейсе tcpdump -i ens192 host 11.222.10.249 -n .</description>
+    <pubDate>Tue, 24 Dec 2024 05:11:29 GMT</pubDate>
   </item>
     </channel>
   </rss>

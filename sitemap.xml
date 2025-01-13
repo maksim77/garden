@@ -3,10 +3,10 @@
     <lastmod>2024-12-24T19:16:45.010Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/</loc>
-    <lastmod>2024-12-24T18:58:34.950Z</lastmod>
+    <lastmod>2025-01-10T13:08:21.810Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/00_GRPC</loc>
-    <lastmod>2024-12-20T05:42:54.880Z</lastmod>
+    <lastmod>2025-01-09T06:19:37.830Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/AST-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE</loc>
     <lastmod>2024-12-24T04:59:49.750Z</lastmod>
@@ -39,7 +39,7 @@
     <lastmod>2024-12-20T05:42:55.550Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Flyway</loc>
-    <lastmod>2024-12-23T19:41:25.910Z</lastmod>
+    <lastmod>2025-01-04T20:43:02.560Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Force-Sync-iCloud-Drive</loc>
     <lastmod>2024-12-23T19:36:45.870Z</lastmod>
@@ -128,20 +128,41 @@
     <loc>https://mak-sim.ru/notes/OLTP-vs-OLAP</loc>
     <lastmod>2024-12-23T19:50:16.010Z</lastmod>
   </url><url>
-    <loc>https://mak-sim.ru/notes/OTEL/Connectors</loc>
-    <lastmod>2024-12-24T20:26:55.440Z</lastmod>
+    <loc>https://mak-sim.ru/notes/OTEL/Basic-Auth-OTLP-Extension</loc>
+    <lastmod>2025-01-04T12:56:42.390Z</lastmod>
   </url><url>
-    <loc>https://mak-sim.ru/notes/OTEL/Exporter</loc>
-    <lastmod>2024-12-20T05:42:54.960Z</lastmod>
+    <loc>https://mak-sim.ru/notes/OTEL/Batch-processor</loc>
+    <lastmod>2025-01-04T19:07:38.840Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Bearer-Token-OTLP-Extension</loc>
+    <lastmod>2025-01-04T12:57:22.400Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Connectors</loc>
+    <lastmod>2025-01-04T20:05:39.280Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Debug-exporter</loc>
+    <lastmod>2025-01-09T06:29:42.850Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/Exporters</loc>
-    <lastmod>2024-12-24T19:58:55.210Z</lastmod>
+    <lastmod>2025-01-09T14:20:28.800Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/Extension</loc>
-    <lastmod>2024-12-24T20:27:05.440Z</lastmod>
+    <lastmod>2024-12-28T11:49:56.940Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/File-Log-Receiver</loc>
+    <lastmod>2025-01-09T15:21:17.990Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Filter-processor</loc>
+    <lastmod>2025-01-04T20:06:39.270Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Grafana-Alloy</loc>
+    <lastmod>2025-01-04T13:55:36.900Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Jaeger</loc>
+    <lastmod>2025-01-04T20:12:19.360Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/LogRecordExporter</loc>
-    <lastmod>2024-12-20T05:42:55.660Z</lastmod>
+    <lastmod>2024-12-29T20:37:52.090Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/LogRecordProcessor</loc>
     <lastmod>2024-12-20T05:42:55.150Z</lastmod>
@@ -156,10 +177,13 @@
     <lastmod>2024-12-20T05:42:54.820Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/MetricProducer</loc>
-    <lastmod>2024-12-20T05:42:54.930Z</lastmod>
+    <lastmod>2025-01-04T20:07:39.290Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/MetricReader</loc>
     <lastmod>2024-12-20T05:42:54.380Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/OCB</loc>
+    <lastmod>2025-01-04T12:55:12.400Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/OTEL-API</loc>
     <lastmod>2024-12-23T19:46:35.960Z</lastmod>
@@ -168,7 +192,7 @@
     <lastmod>2024-12-20T05:42:54.370Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/OTEL-Collector</loc>
-    <lastmod>2024-12-24T20:02:15.240Z</lastmod>
+    <lastmod>2025-01-07T12:35:46.780Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/OTEL-Logs</loc>
     <lastmod>2024-12-20T05:42:54.990Z</lastmod>
@@ -182,6 +206,9 @@
     <loc>https://mak-sim.ru/notes/OTEL/OTEL-SDK</loc>
     <lastmod>2024-12-20T05:42:54.620Z</lastmod>
   </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/OTEL-TLS-settings</loc>
+    <lastmod>2025-01-09T12:39:08.760Z</lastmod>
+  </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/OTEL-Tracing</loc>
     <lastmod>2024-12-20T12:02:50.460Z</lastmod>
   </url><url>
@@ -191,32 +218,59 @@
     <loc>https://mak-sim.ru/notes/OTEL/OTEL.-Java</loc>
     <lastmod>2024-12-20T05:42:54.910Z</lastmod>
   </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/OTLP-Exporter</loc>
+    <lastmod>2025-01-09T06:30:36.520Z</lastmod>
+  </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/OTLP</loc>
     <lastmod>2024-12-21T04:54:59.760Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/OpenTelemetry-Baggage</loc>
     <lastmod>2024-12-20T12:15:20.510Z</lastmod>
   </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/OpenTelemetry-Transformation-Language</loc>
+    <lastmod>2025-01-04T20:06:59.270Z</lastmod>
+  </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/OpenTelemetry-%D0%B2-K8S</loc>
-    <lastmod>2024-12-20T05:42:54.340Z</lastmod>
+    <lastmod>2025-01-04T08:21:29.120Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/OpenTelemetry</loc>
-    <lastmod>2024-12-21T16:21:37.010Z</lastmod>
+    <lastmod>2025-01-06T05:53:26.230Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/Processors</loc>
-    <lastmod>2024-12-24T19:56:55.190Z</lastmod>
+    <lastmod>2025-01-04T19:56:49.250Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Prometheus-Exporter</loc>
+    <lastmod>2025-01-09T14:22:01.200Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Prometheus-Remote-Write-Exporter</loc>
+    <lastmod>2025-01-09T14:22:01.200Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/Receivers</loc>
-    <lastmod>2024-12-24T19:56:45.190Z</lastmod>
+    <lastmod>2025-01-09T14:26:08.500Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Resources-%D0%B2-Collector</loc>
+    <lastmod>2024-12-26T05:33:28.360Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Routing-connector</loc>
+    <lastmod>2025-01-04T20:06:59.280Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Services</loc>
+    <lastmod>2025-01-09T06:06:46.000Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Span-Exporter</loc>
+    <lastmod>2025-01-09T12:38:28.760Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/Span</loc>
-    <lastmod>2024-12-23T19:46:35.940Z</lastmod>
+    <lastmod>2025-01-06T21:19:10.770Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/SpanProcessor</loc>
-    <lastmod>2024-12-20T05:42:54.570Z</lastmod>
+    <lastmod>2025-01-09T12:38:28.770Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/Storage-Extension</loc>
+    <lastmod>2025-01-09T14:37:33.550Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/TracerProvider</loc>
-    <lastmod>2024-12-20T05:42:55.620Z</lastmod>
+    <lastmod>2025-01-09T12:38:28.760Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/Views</loc>
     <lastmod>2024-12-20T05:42:54.600Z</lastmod>
@@ -226,6 +280,12 @@
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-http.Handler-OTEL</loc>
     <lastmod>2024-12-20T05:42:54.890Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F-OTLP</loc>
+    <lastmod>2025-01-09T12:38:28.760Z</lastmod>
+  </url><url>
+    <loc>https://mak-sim.ru/notes/OTEL/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F-%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F-Collector</loc>
+    <lastmod>2025-01-09T16:24:28.020Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/%D0%96%D0%B5%D1%81%D1%82%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BA%D1%81%D1%82</loc>
     <lastmod>2024-12-20T05:42:54.780Z</lastmod>
@@ -249,7 +309,7 @@
     <lastmod>2024-12-20T05:42:55.410Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/%D0%9B%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%81%D1%82%D0%B5%D0%BD%D0%B4-OpenTelemetry</loc>
-    <lastmod>2024-12-20T05:42:54.780Z</lastmod>
+    <lastmod>2025-01-09T07:21:20.990Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/OTEL/%D0%9C%D1%8F%D0%B3%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BA%D1%81%D1%82</loc>
     <lastmod>2024-12-20T05:42:55.000Z</lastmod>
@@ -281,6 +341,9 @@
     <loc>https://mak-sim.ru/notes/ReplicaSet</loc>
     <lastmod>2024-12-20T05:42:54.370Z</lastmod>
   </url><url>
+    <loc>https://mak-sim.ru/notes/Retrieve-APK-from-Non-Rooted-Android-Device-through-ADB</loc>
+    <lastmod>2024-12-29T19:59:32.410Z</lastmod>
+  </url><url>
     <loc>https://mak-sim.ru/notes/SSL-on-PostgreSQL</loc>
     <lastmod>2024-12-20T05:42:54.850Z</lastmod>
   </url><url>
@@ -309,19 +372,19 @@
     <lastmod>2024-12-20T05:42:55.650Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Thrift-Client.-Java</loc>
-    <lastmod>2024-12-20T05:42:54.380Z</lastmod>
+    <lastmod>2024-12-28T14:00:12.970Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Thrift-Codegen.-Golang</loc>
     <lastmod>2024-12-20T05:42:54.400Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Thrift-Codegen.-Java</loc>
-    <lastmod>2024-12-20T05:42:55.100Z</lastmod>
+    <lastmod>2024-12-28T13:59:22.830Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Thrift-Server.-Golang</loc>
     <lastmod>2024-12-20T05:42:54.730Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Thrift-Server.-Java</loc>
-    <lastmod>2024-12-20T05:42:54.430Z</lastmod>
+    <lastmod>2024-12-28T13:59:32.780Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Thrift.-Golang</loc>
     <lastmod>2024-12-20T05:42:55.370Z</lastmod>
@@ -348,7 +411,7 @@
     <lastmod>2024-12-23T14:21:54.120Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Trino/TPCDS</loc>
-    <lastmod>2024-12-23T14:21:54.110Z</lastmod>
+    <lastmod>2024-12-28T14:03:56.110Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Trino/Trino-API</loc>
     <lastmod>2024-12-23T14:21:54.080Z</lastmod>
@@ -357,7 +420,7 @@
     <lastmod>2024-12-23T14:05:14.820Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Trino/Trino</loc>
-    <lastmod>2024-12-23T14:41:34.160Z</lastmod>
+    <lastmod>2025-01-06T21:09:14.930Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/Trino/%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D0%BE%D0%B2-%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%BC%D1%83%D1%8E-%D0%BA-%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D1%83-%D0%B2-Trino</loc>
     <lastmod>2024-12-23T14:36:34.150Z</lastmod>
@@ -507,7 +570,7 @@
     <lastmod>2024-12-23T19:52:26.050Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/%D0%9F%D0%B5%D1%80%D0%B5%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%BC%D0%B8-Java.-Linux</loc>
-    <lastmod>2024-12-23T19:42:05.920Z</lastmod>
+    <lastmod>2025-01-04T20:43:32.420Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/%D0%9F%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D1%83-Vim</loc>
     <lastmod>2024-12-23T19:52:36.040Z</lastmod>
@@ -539,14 +602,14 @@
     <loc>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-JQ</loc>
     <lastmod>2024-12-24T10:49:31.910Z</lastmod>
   </url><url>
+    <loc>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-Teleport</loc>
+    <lastmod>2024-12-25T07:54:20.100Z</lastmod>
+  </url><url>
     <loc>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-oauth2-%D0%B2-golang</loc>
     <lastmod>2024-12-24T10:59:02.030Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-restic</loc>
     <lastmod>2024-12-24T10:58:42.030Z</lastmod>
-  </url><url>
-    <loc>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-teleport</loc>
-    <lastmod>2024-12-20T05:42:54.600Z</lastmod>
   </url><url>
     <loc>https://mak-sim.ru/notes/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D0%BC%D0%B8-Vim</loc>
     <lastmod>2024-12-23T19:52:46.050Z</lastmod>

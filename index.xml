@@ -10,61 +10,61 @@
     <link>https://mak-sim.ru/</link>
     <guid>https://mak-sim.ru/</guid>
     <description>Index Добро пожаловать в ещё один цифровой садик. По сути это небольшой кусочек моего Obsidian доступный всем. Большинство заметок здесь я специально не готовил к публикации и они видны “как есть”, что означает местами специфическое форматирование или хвост ы каких-то плагинов которые не видны в интерфейсе Quartz.</description>
-    <pubDate>Fri, 10 Jan 2025 13:08:21 GMT</pubDate>
+    <pubDate>Fri, 02 May 2025 12:47:16 GMT</pubDate>
   </item><item>
-    <title>Внутренняя телеметрия Collector</title>
-    <link>https://mak-sim.ru/notes/OTEL/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F-%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F-Collector</link>
-    <guid>https://mak-sim.ru/notes/OTEL/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F-%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F-Collector</guid>
-    <description>Внутренняя телеметрия Collector Source:: opentelemetry.io/docs/collector/internal-telemetry Коллектор отображает свое состояние через логи и метрики. Метрики Пример настройки отображени метрик как стандартный экспортер Prometheus: service: telemetry: metrics: readers: - pull: exporter: prometheus: host: &#039;0.0.0.0&#039; port: 8888 Или можно настроить на отправку метрик через Exporters: service: telemetry: metrics: readers: - periodic: exporter: otlp: protocol: grpc/protobuf endpoint: http://localhost:14317 Параметром level можно определить уровень детализации метрик: service: telemetry: metrics: level: detailed none: no telemetry is collected.</description>
-    <pubDate>Thu, 09 Jan 2025 16:24:28 GMT</pubDate>
+    <title>Использование Sealed Secrets</title>
+    <link>https://mak-sim.ru/notes/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-Sealed-Secrets</link>
+    <guid>https://mak-sim.ru/notes/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-Sealed-Secrets</guid>
+    <description>Использование Sealed Secrets Пример создания Sealed Secret Создание секрета Kubernetes: kubectl create secret generic mysecret --from-literal=username=admin --from-literal=password=secretpass ...</description>
+    <pubDate>Fri, 02 May 2025 12:47:16 GMT</pubDate>
   </item><item>
-    <title>File Log Receiver</title>
-    <link>https://mak-sim.ru/notes/OTEL/File-Log-Receiver</link>
-    <guid>https://mak-sim.ru/notes/OTEL/File-Log-Receiver</guid>
-    <description>File Log Receiver Source:: github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/filelogreceiver Читает и парсит логи. Параметры FieldDefaultDescriptionincludeобязательныйСписок шаблонов glob для файлов, которые нужно прочитать.exclude[]Список шаблонов glob для исключения из чтения.</description>
-    <pubDate>Thu, 09 Jan 2025 15:21:17 GMT</pubDate>
+    <title>Резервное копирование ключей Sealed Secrets</title>
+    <link>https://mak-sim.ru/notes/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5-%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%B9-Sealed-Secrets</link>
+    <guid>https://mak-sim.ru/notes/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5-%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%B9-Sealed-Secrets</guid>
+    <description>Резервное копирование ключей Sealed Secrets По умолчанию раз в тридцать дней контроллер выпустит новый секрет которым будут шифроваться секреты. Для резервного копирования или переноса их на другой кластер необходимо сохранить все секреты, что использует контроллер.</description>
+    <pubDate>Fri, 02 May 2025 12:47:16 GMT</pubDate>
+  </item><item>
+    <title>Установка Sealed Secrets</title>
+    <link>https://mak-sim.ru/notes/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-Sealed-Secrets</link>
+    <guid>https://mak-sim.ru/notes/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-Sealed-Secrets</guid>
+    <description>Установка Sealed Secrets Установка состоит из двух частей - контроллер в Kubernetes кластере и клиентское приложение kubeseal для создания зашифрованных секретов ...</description>
+    <pubDate>Fri, 02 May 2025 12:47:16 GMT</pubDate>
+  </item><item>
+    <title>GitHub issue search</title>
+    <link>https://mak-sim.ru/notes/GitHub-issue-search</link>
+    <guid>https://mak-sim.ru/notes/GitHub-issue-search</guid>
+    <description>GitHub issue search Для того чтобы найти все комментарии к issue которые оставил пользователь можно использовать директиву поиска involves. Например так: is:issue involves:maksim77.</description>
+    <pubDate>Thu, 01 May 2025 18:19:39 GMT</pubDate>
+  </item><item>
+    <title>Локальный стенд OpenTelemetry</title>
+    <link>https://mak-sim.ru/notes/OTEL/%D0%9B%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%81%D1%82%D0%B5%D0%BD%D0%B4-OpenTelemetry</link>
+    <guid>https://mak-sim.ru/notes/OTEL/%D0%9B%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%81%D1%82%D0%B5%D0%BD%D0%B4-OpenTelemetry</guid>
+    <description>Локальный стенд OpenTelemetry Source:: github.com/maksim77/otel_dev_stand . ├── compose.yaml ├── grafana │ └── datasource.yml ├── LICENSE.md ├── otel │ └── otel-collector-config.yaml ├── prometheus │ └── prometheus.yml ├── README.md └── TODO.md compose.yml services: prometheus: image: prom/prometheus container_name: prometheus command: - &#039;--config.file=/etc/prometheus/prometheus.yml&#039; ports: - 9090:9090 volumes: - ./prometheus:/etc/prometheus grafana: image: grafana/grafana container_name: grafana ports: - 3000:3000 environment: - GF_SECURITY_ADMIN_USER=admin - GF_SECURITY_ADMIN_PASSWORD=grafana volumes: - ./grafana:/etc/grafana/provisioning/datasources otel-collector: image: otel/opentelemetry-collector:latest container_name: otel-collector command: [&quot;--config=/etc/otel-collector-config.yaml&quot;] volumes: - ./otel/otel-collector-config.yaml:/etc/otel-collector-config.yaml ports: - &quot;4317:4317&quot; # OTLP gRPC receiver - &quot;8889:8889&quot; # Prometheus exposed port depends_on: - jaeger jaeger: image: jaegertracing/all-in-one:latest container_name: jaeger environment: - COLLECTOR_OTLP_ENABLED=true - COLLECTOR_OTLP_GRPC_HOST_PORT=:4317 ports: - &quot;16686:16686&quot; Prometheus В папке prometheus находится файл prometheus.yml.</description>
+    <pubDate>Thu, 01 May 2025 18:19:39 GMT</pubDate>
+  </item><item>
+    <title>Thrift. Golang</title>
+    <link>https://mak-sim.ru/notes/Thrift.-Golang</link>
+    <guid>https://mak-sim.ru/notes/Thrift.-Golang</guid>
+    <description>Thrift. Golang Children:: Thrift Server. Golang Children:: Thrift Client. Golang Children:: Thrift Codegen. Golang .</description>
+    <pubDate>Thu, 01 May 2025 18:19:39 GMT</pubDate>
+  </item><item>
+    <title>NTLM авторизация в httpie</title>
+    <link>https://mak-sim.ru/notes/NTLM-%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-httpie</link>
+    <guid>https://mak-sim.ru/notes/NTLM-%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-httpie</guid>
+    <description>NTLM авторизация в httpie pip install httpie-ntlm /usr/local/Cellar/httpie/3.2.2/libexec/bin/python3.11 -m pip install httpie-ntlm http newportal.site.ru --verify=false ...</description>
+    <pubDate>Thu, 01 May 2025 18:19:39 GMT</pubDate>
   </item><item>
     <title>Storage Extension</title>
     <link>https://mak-sim.ru/notes/OTEL/Storage-Extension</link>
     <guid>https://mak-sim.ru/notes/OTEL/Storage-Extension</guid>
     <description>Storage Extension Расширения коллектора которые обеспечивают ему возможность хранить персистентное состояние. Необходимо как минимум для File Log Receiver чтобы хранить оффсеты чтения лог файлов.</description>
-    <pubDate>Thu, 09 Jan 2025 14:37:33 GMT</pubDate>
+    <pubDate>Thu, 01 May 2025 18:19:39 GMT</pubDate>
   </item><item>
-    <title>Receivers</title>
-    <link>https://mak-sim.ru/notes/OTEL/Receivers</link>
-    <guid>https://mak-sim.ru/notes/OTEL/Receivers</guid>
-    <description>Receivers Receivers получают данные телеметрии из внешних источников. Например стандартный OTLP. OTLP Receiver File Log Receiver .</description>
-    <pubDate>Thu, 09 Jan 2025 14:26:08 GMT</pubDate>
-  </item><item>
-    <title>Prometheus Exporter</title>
-    <link>https://mak-sim.ru/notes/OTEL/Prometheus-Exporter</link>
-    <guid>https://mak-sim.ru/notes/OTEL/Prometheus-Exporter</guid>
-    <description>Prometheus Exporter Source:: github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/exporter/prometheusexporter/README.md Отдает на определенном ...</description>
-    <pubDate>Thu, 09 Jan 2025 14:22:01 GMT</pubDate>
-  </item><item>
-    <title>Prometheus Remote Write Exporter</title>
-    <link>https://mak-sim.ru/notes/OTEL/Prometheus-Remote-Write-Exporter</link>
-    <guid>https://mak-sim.ru/notes/OTEL/Prometheus-Remote-Write-Exporter</guid>
-    <description>Prometheus Remote Write Exporter Source:: github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/prometheusremotewriteexporter Отправляет ...</description>
-    <pubDate>Thu, 09 Jan 2025 14:22:01 GMT</pubDate>
-  </item><item>
-    <title>Exporters</title>
-    <link>https://mak-sim.ru/notes/OTEL/Exporters</link>
-    <guid>https://mak-sim.ru/notes/OTEL/Exporters</guid>
-    <description>Exporters Exporters отправляют данные в один или несколько бэкендов или пунктов назначения. Экспортеры могут быть как «pull», так и «push», и могут поддерживать один или несколько источников данных.</description>
-    <pubDate>Thu, 09 Jan 2025 14:20:28 GMT</pubDate>
-  </item><item>
-    <title>OTEL TLS settings</title>
-    <link>https://mak-sim.ru/notes/OTEL/OTEL-TLS-settings</link>
-    <guid>https://mak-sim.ru/notes/OTEL/OTEL-TLS-settings</guid>
-    <description>OTEL TLS settings cert_file: Путь к сертификату TLS, который следует использовать для обязательных подключений по TLS. Должен использоваться только в том случае, если insecure установлен в false.</description>
-    <pubDate>Thu, 09 Jan 2025 12:39:08 GMT</pubDate>
-  </item><item>
-    <title>SpanProcessor</title>
-    <link>https://mak-sim.ru/notes/OTEL/SpanProcessor</link>
-    <guid>https://mak-sim.ru/notes/OTEL/SpanProcessor</guid>
-    <description>SpanProcessor SpanProcessor - компонент который предназначен для сбора и изменения трейсов. Он перехватывает трейс дважды: в начале и в конце. Такие обработчики могут выстраиваться в pipeline в порядке регистрации и этот порядок важен! Обработчики изменяющие телеметрию должны быть включен в конвейер раньше, чем например группирующие её.</description>
-    <pubDate>Thu, 09 Jan 2025 12:38:28 GMT</pubDate>
+    <title>Thrift</title>
+    <link>https://mak-sim.ru/notes/Thrift</link>
+    <guid>https://mak-sim.ru/notes/Thrift</guid>
+    <description>Thrift Children:: Thrift. Golang Children:: Thrift. Java Работу с Thrift можно разделить на следующие слои: Сервер Протокол Транспорт Протокол TBinaryProtocol — простой двоичный формат, кодирующий числовые значения как двоичные, а не преобразующий их в текст.</description>
+    <pubDate>Thu, 01 May 2025 18:19:39 GMT</pubDate>
   </item>
     </channel>
   </rss>
